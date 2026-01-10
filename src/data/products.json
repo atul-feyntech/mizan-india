@@ -66,6 +66,14 @@
         },
         "explanation": "Limit to 54g to stay within saturated fat limits.",
         "explanation_hindi": "54g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "Maggi: Instant Regret",
+        "title_hi": "Maggi: Turant Pachtava",
+        "verdict_en": "Two minutes to heart disease. Saturated fat is lurking; sodium *zero*? Seems fishy. *Thoda toh* healthy *bano*, Nestlé!",
+        "verdict_hi": "Do minute mein dil ki bimaari. Saturated fat *chupa hua hai*; sodium *zero*? *Kuch toh* gadbad *hai*. *Thoda toh* healthy *bano*, Nestlé!",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -117,6 +125,14 @@
         },
         "explanation": "Limit to 40g to stay within sodium limits.",
         "explanation_hindi": "40g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Maggi: Sodium Overload!",
+        "title_hi": "Maggi: Namak ka Dhamaal!",
+        "verdict_en": "Two minutes of 'meh'! That sodium content will give your kidneys a workout. Saturated fat bhi zyada hai, thoda control karo bhai!",
+        "verdict_hi": "Two minutes ka 'meh'! Woh sodium content aapke kidneys ko exercise kara dega. Saturated fat bhi zyada hai, thoda control karo bhai!",
+        "emoji": "🧂",
+        "approved": false
       }
     },
     {
@@ -184,6 +200,14 @@
         },
         "explanation": "Limit to 40g to stay within sodium limits.",
         "explanation_hindi": "40g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Maggi: Sodium Overload!",
+        "title_hi": "Maggi: Namak ka Dariya!",
+        "verdict_en": "Sodium levels are off the charts! Your heart will thank you for skipping this. *Bas karo Nestle, bas karo!*",
+        "verdict_hi": "Sodium toh aasmaan chhu raha hai! Dil bolega, 'thank you' agar ise chhod doge. *Bas karo Nestle, bas karo!*",
+        "emoji": "🧂",
+        "approved": false
       }
     },
     {
@@ -252,6 +276,14 @@
         },
         "explanation": "Limit to 31g to stay within sodium limits.",
         "explanation_hindi": "31g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Maggi: Sodium Overload",
+        "title_hi": "Maggi: Namak ka Dhamaka",
+        "verdict_en": "Chicken noodles? More like sodium central. Bhai, your kidneys are crying 'bas karo!', it's practically a salt lick.",
+        "verdict_hi": "Chicken noodles? Yeh toh namak ka pahad hai, boss! Kidney bol rahi hai, 'bas karo!', itna sodium toh samandar mein bhi nahi hoga.",
+        "emoji": "🧂",
+        "approved": false
       }
     },
     {
@@ -320,6 +352,14 @@
         },
         "explanation": "Limit to 51g to stay within saturated fat limits.",
         "explanation_hindi": "51g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "Maggi: Not-So-Healthy Noodles",
+        "title_hi": "Maggi: Itni bhi healthy nahi",
+        "verdict_en": "Two-minute noodles, two minutes to hypertension. High sodium and saturated fat? Bhai, dil ka kya hoga?",
+        "verdict_hi": "Two-minute noodles, do minute mein hypertension. High sodium aur saturated fat? Bhai, dil ka kya hoga?",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -367,6 +407,14 @@
         },
         "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
         "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
+      },
+      "roast": {
+        "title_en": "Maggi: Clean Slate?",
+        "title_hi": "Maggi: Saaf Sutra?",
+        "verdict_en": "Zero sugar, zero sodium, zero saturated fat? Bhai, yeh Maggi hai ya koi yogic diet? Seems too good to be true, but the data speaks for itself!",
+        "verdict_hi": "Zero sugar, zero sodium, zero saturated fat? Bhai, yeh Maggi hai ya koi yogic diet? Lagta hai jhoot hai, lekin data toh sach bol raha hai!",
+        "emoji": "🍜",
+        "approved": false
       }
     },
     {
@@ -428,6 +476,14 @@
         },
         "explanation": "Limit to 50g to stay within sodium limits.",
         "explanation_hindi": "50g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Sweet, Spicy, Salty Bomb",
+        "title_hi": "Meetha, Teekha, Namkeen Dhamaka",
+        "verdict_en": "Sugar and sodium ka overload, bhai! This sauce will spice up your food and your blood pressure. Thoda control karo.",
+        "verdict_hi": "Sugar aur sodium ka overload, bhai! Yeh sauce tumhare khaane ko aur tumhare blood pressure ko badha dega. Thoda control karo.",
+        "emoji": "🧂",
+        "approved": false
       }
     },
     {
@@ -496,6 +552,14 @@
         },
         "explanation": "Limit to 33g to stay within sodium limits.",
         "explanation_hindi": "33g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Maggi: Two Minutes, Forever Problems",
+        "title_hi": "Maggi: Do Minute, Hamesha Musibat",
+        "verdict_en": "Two minutes to cook, a lifetime to regret. That sodium level is *way* too high, bhai. Dil ka doctor bulaye kya?",
+        "verdict_hi": "Do minute mein pakao, zindagi bhar pachtao. Sodium level toh bahut zyada hai, bhai. Heart attack free mein milega.",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -559,6 +623,14 @@
         },
         "explanation": "Limit to 53g to stay within sugar limits.",
         "explanation_hindi": "53g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Tomato? More Like Sugar!",
+        "title_hi": "Tomato? Zyada Sugar Nikla!",
+        "verdict_en": "Maggi Ketchup: You're basically drinking sugar with a hint of tomato and a salt lick. Bach ke raho, diabetes bula rahi hai! ⚠️",
+        "verdict_hi": "Maggi Ketchup: Yeh toh basically sugar syrup hai, thoda sa tomato aur namak bhi. Sambhal ke, diabetes aa raha hai! ⚠️",
+        "emoji": "🍅",
+        "approved": false
       }
     },
     {
@@ -606,6 +678,14 @@
         },
         "explanation": "Limit to 74g to stay within sugar limits.",
         "explanation_hindi": "74g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Masala Magic: Mildly Magical",
+        "title_hi": "Masala Magic: Thoda Magical",
+        "verdict_en": "Hey, not bad! Sugar is a bit high, but otherwise, *kya karein?* It's actually decent. Keep the portions small, and you're golden.",
+        "verdict_hi": "Arey, bura nahi hai! Sugar thoda zyada hai, lekin *kya karein?* Actually, theek hai. Portion chote rakho, aur tum toh mast ho.",
+        "emoji": "🌟",
+        "approved": false
       }
     },
     {
@@ -673,6 +753,14 @@
         },
         "explanation": "Limit to 50g to stay within sodium limits.",
         "explanation_hindi": "50g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Atta? More Like Attack!",
+        "title_hi": "Atta? Zyada Attack, Bhai!",
+        "verdict_en": "Veg Atta? More like Veg *Attack-a* your arteries! That sodium and saturated fat are doing overtime. Thoda control, yaar.",
+        "verdict_hi": "Veg Atta? Veg *Attack-a* aapki arteries pe! Woh sodium aur saturated fat toh over time kar rahe hain. Thoda control, yaar.",
+        "emoji": "🫀",
+        "approved": false
       }
     },
     {
@@ -741,6 +829,14 @@
         },
         "explanation": "Limit to 33g to stay within sodium limits.",
         "explanation_hindi": "33g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Maggi: Masala Misery",
+        "title_hi": "Maggi: Masala Musibat",
+        "verdict_en": "Two minutes to hypertension! That much sodium and saturated fat will make your doctor *very* happy... to see you more often. Dietician se milo, bhai.",
+        "verdict_hi": "Do minute mein hypertension! Itna sodium aur saturated fat aapke doctor ko *bahut* khush karega... aapko baar baar dekh kar. Dietician se milo, bhai.",
+        "emoji": "🧂",
+        "approved": false
       }
     },
     {
@@ -806,6 +902,14 @@
         },
         "explanation": "Limit to 50g to stay within sodium limits.",
         "explanation_hindi": "50g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Pazzta? More like 'Saltsta'",
+        "title_hi": "Pazzta? More like 'Namaksta'",
+        "verdict_en": "Sodium overload! This 'healthy' snack is trying to give you high BP before you hit 30. Thoda control, bhai!",
+        "verdict_hi": "Sodium ka bhandar! Yeh 'healthy' snack aapko 30 se pehle high BP dena chah raha hai. Thoda control, bhai!",
+        "emoji": "🧂",
+        "approved": false
       }
     },
     {
@@ -873,6 +977,14 @@
         },
         "explanation": "Limit to 50g to stay within sodium limits.",
         "explanation_hindi": "50g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Atta? More like 'Attack'",
+        "title_hi": "Atta? Attack hi samajho",
+        "verdict_en": "Atta noodles, but with a sodium and saturated fat bomb. Your heart will be saying 'bye bye' faster than you can say 'Maggi'.",
+        "verdict_hi": "Atta noodles toh hai, lekin sodium aur saturated fat ka dhamaka. Dil bolega 'Tata bye bye' Maggi bolne se pehle.",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -940,6 +1052,14 @@
         },
         "explanation": "Limit to 40g to stay within sodium limits.",
         "explanation_hindi": "40g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Maggi: Family Un-Fun Pack",
+        "title_hi": "Maggi: Family Un-Fun Pack",
+        "verdict_en": "Family fun? More like family hypertension! With that much sodium and saturated fat, this is a recipe for a medical drama, not a delightful dinner.",
+        "verdict_hi": "Family fun? Zyada sodium aur saturated fat se toh hypertension hi hoga! Yeh toh medical drama ki recipe hai, mazedaar dinner nahi.",
+        "emoji": "🧂",
+        "approved": false
       }
     },
     {
@@ -990,6 +1110,14 @@
         },
         "explanation": "Limit to 50g to stay within sodium limits.",
         "explanation_hindi": "50g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Salty Beefy Regret",
+        "title_hi": "Namkeen Bhainsi Pachtawa",
+        "verdict_en": "Beefy Maggi is a sodium bomb! Your heart will be saying 'uffo' after this. Thoda protein toh hai, but is it worth the damage?",
+        "verdict_hi": "Beefy Maggi ek sodium bomb hai! Tumhara dil toh 'uffo' bolega iske baad. Thoda protein toh hai, lekin kya yeh nuksaan ke layak hai?",
+        "emoji": "🧂",
+        "approved": false
       }
     },
     {
@@ -1053,6 +1181,14 @@
         },
         "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
         "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
+      },
+      "roast": {
+        "title_en": "Pazzta: Surprisingly Decent",
+        "title_hi": "Pazzta: Achha Nikla!",
+        "verdict_en": "Zero sugar and sodium? Saturated fat *gone*? Maggi Pazzta Mashroom might actually be…healthy-ish? Yeh toh kamaal ho gaya!",
+        "verdict_hi": "Zero sugar aur sodium? Saturated fat *vanished*? Maggi Pazzta Mashroom toh actually… healthy-ish ho sakta hai?  Yeh toh kamaal ho gaya!",
+        "emoji": "🍄",
+        "approved": false
       }
     },
     {
@@ -1121,6 +1257,14 @@
         },
         "explanation": "Very limited portion recommended. Just 27g due to high sodium.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 27g kyunki sodium zyada hai."
+      },
+      "roast": {
+        "title_en": "Maggi: Minute to Misery",
+        "title_hi": "Maggi: Minute mein Musibat",
+        "verdict_en": "Two minutes to diabetes! This ain't nutrition, it's a sodium and fat bomb. *Bas karo, yaar*!",
+        "verdict_hi": "Do minute mein diabetes! Yeh nutrition nahi hai, yeh toh sodium aur fat ka bomb hai. *Bas karo, yaar*!",
+        "emoji": "💣",
+        "approved": false
       }
     },
     {
@@ -1184,6 +1328,14 @@
         },
         "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
         "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
+      },
+      "roast": {
+        "title_en": "Pazzta: Surprisingly Decent",
+        "title_hi": "Pazzta: Achha Nikla!",
+        "verdict_en": "Zero sugar and sodium? Saturated fat bhi nahi? Maggi Pazzta Cheese Macaroni, tum toh nikle chhupi rustam. Finally, something that won't clog your arteries or give you the sugar rushies. 👀",
+        "verdict_hi": "Zero sugar aur sodium? Saturated fat bhi nahi? Maggi Pazzta Cheese Macaroni, tum toh nikle chhupi rustam. Finally, kuch toh aisa hai jo arteries block nahi karega aur sugar rush nahi dega. 👀",
+        "emoji": "✅",
+        "approved": false
       }
     },
     {
@@ -1249,6 +1401,14 @@
         },
         "explanation": "Limit to 33g to stay within sodium limits.",
         "explanation_hindi": "33g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Cheesy, Tomato-y, Salty!",
+        "title_hi": "Cheesy, Tomato-y, Namkeen!",
+        "verdict_en": "The 'cheesy' is silent on the health front. Sodium is through the roof - your kidneys are crying 'bas karo!'",
+        "verdict_hi": "The 'cheesy' part is just marketing gimmick. Sodium toh itna hai ki kidney bol rahi hai, 'bas karo bhai!'",
+        "emoji": "🧂",
+        "approved": false
       }
     },
     {
@@ -1298,6 +1458,14 @@
         },
         "explanation": "Limit to 58g to stay within saturated fat limits.",
         "explanation_hindi": "58g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "Korean Heart Attack",
+        "title_hi": "Korean Heart Attack",
+        "verdict_en": "Korean flavor, desi heart problems! That saturated fat is a silent killer, bhai. Noodles toh khao, but dil ka bhi khayal rakho!",
+        "verdict_hi": "Korean flavor, desi heart problems! That saturated fat is a silent killer, bhai. Noodles toh khao, but dil ka bhi khayal rakho!",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -1356,6 +1524,14 @@
         },
         "explanation": "Limit to 44g to stay within sodium limits.",
         "explanation_hindi": "44g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Masala Maar Dala!",
+        "title_hi": "Masala Maar Dala!",
+        "verdict_en": "Special Masala? More like Special Sodium! Bhai, this is a heart attack in a packet. Dil ke liye danger zone, avoid karo!",
+        "verdict_hi": "Special Masala? More like Special Sodium! Bhai, this is a heart attack in a packet. Dil ke liye danger zone, avoid karo!",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -1423,6 +1599,14 @@
         },
         "explanation": "Very limited portion recommended. Just 18g due to high saturated fat.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 18g kyunki saturated fat zyada hai."
+      },
+      "roast": {
+        "title_en": "KitKat: Sweet Fat Bomb",
+        "title_hi": "KitKat: Meetha Fatka",
+        "verdict_en": "35g sugar and 25g saturated fat per 100g? Bhai, this isn't a snack, it's a shortcut to diabetes. Break nahin, heart break dega!",
+        "verdict_hi": "35g sugar aur 25g saturated fat per 100g? Bhai, yeh snack nahi, diabetes ka shortcut hai. Break nahin, heart break dega!",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -1487,6 +1671,14 @@
         },
         "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
         "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
+      },
+      "roast": {
+        "title_en": "KitKat: Mini Heart Attack",
+        "title_hi": "KitKat: Chota Heart Attack",
+        "verdict_en": "It's mini alright, mini-mally nutritious! 35g sugar and 24.5g saturated fat per 100g? Yeh toh seedha cholesterol express hai.",
+        "verdict_hi": "Hai toh mini, lekin nutrition toh bilkul mini hai! 35g sugar aur 24.5g saturated fat per 100g? This is a one-way ticket to heart problems.",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -1550,6 +1742,14 @@
         },
         "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
         "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
+      },
+      "roast": {
+        "title_en": "Munch: Sugar Overload",
+        "title_hi": "Munch: Cheeni Ka Pahaad",
+        "verdict_en": "Munch? More like 'Much' sugar and saturated fat! This isn't a snack; it's a dessert pretending to be one. Avoid for your health's sake.",
+        "verdict_hi": "Munch? Yeh toh 'Much' cheeni aur saturated fat hai! Yeh snack nahi, dessert hai jo disguise kar raha hai. Apni health ke liye toh bilkul avoid karo.",
+        "emoji": "🍬",
+        "approved": false
       }
     },
     {
@@ -1615,6 +1815,14 @@
         },
         "explanation": "Limit to 54g to stay within saturated fat limits.",
         "explanation_hindi": "54g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "Instant Regret Noodles",
+        "title_hi": "Instant Pachtawa Noodles",
+        "verdict_en": "Two-minute noodles, ten-year heart disease. That much saturated fat is basically a slow-motion heart attack, bhai!",
+        "verdict_hi": "Do minute noodles, das saal ki heart disease. Itna saturated fat toh seedha seedha slow-motion heart attack hai, bhai!",
+        "emoji": "🫀",
+        "approved": false
       }
     },
     {
@@ -1679,6 +1887,14 @@
         },
         "explanation": "Very limited portion recommended. Just 20g due to high saturated fat.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 20g kyunki saturated fat zyada hai."
+      },
+      "roast": {
+        "title_en": "Munch NO Max!",
+        "title_hi": "Munch? Never Max!",
+        "verdict_en": "32 grams of sugar and 22 grams of saturated fat? Bhai, this isn't a snack; it's a heart attack waiting to happen. Your body will say, 'Nahin chahiye!'",
+        "verdict_hi": "32 gram sugar aur 22 gram saturated fat? Bhai, yeh snack nahi; seedha heart attack hai. Tumhari body bolegi, 'Nahin chahiye!'",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -1746,6 +1962,14 @@
         },
         "explanation": "Limit to 36g to stay within saturated fat limits.",
         "explanation_hindi": "36g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "Chuppa Rustom, Hidden Sodium",
+        "title_hi": "Chuppa Rustom, Sodium Chhupa",
+        "verdict_en": "These \"chuppa\" noodles are not hiding the bad stuff! That's a sodium and saturated fat bomb, bhai. Dil ke liye khatarnak!",
+        "verdict_hi": "Yeh \"chuppa\" noodles kuch nahi chhupa rahe! Yeh toh sodium aur saturated fat ka bomb hai, bhai. Dil ke liye dangerous!",
+        "emoji": "💣",
+        "approved": false
       }
     },
     {
@@ -1797,6 +2021,14 @@
         },
         "explanation": "Very limited portion recommended. Just 17g due to high sugar.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 17g kyunki sugar zyada hai."
+      },
+      "roast": {
+        "title_en": "Sugar Rush, No Rush!",
+        "title_hi": "Sugar ka Dabba, Na Baba!",
+        "verdict_en": "Milkmaid? More like Sugarmaid! 58g of sugar per 100g? Your chai will be sweeter than your ex, but also less healthy.",
+        "verdict_hi": "Milkmaid? Yeh toh Sugarmaid nikli! 58g sugar prati 100g? Tumhari chai tumhare ex se bhi meethi hogi, lekin sehat ke liye achhi nahi.",
+        "emoji": "🍬",
+        "approved": false
       }
     },
     {
@@ -1860,6 +2092,14 @@
         },
         "explanation": "Very limited portion recommended. Just 18g due to high saturated fat.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 18g kyunki saturated fat zyada hai."
+      },
+      "roast": {
+        "title_en": "KitKat: KitKatastrophe!",
+        "title_hi": "KitKat: Kit-Burbadi!",
+        "verdict_en": "35g sugar and 24.5g saturated fat? Bhai, this KitKat is more like KitFAT. Break toh banta hai... from eating this!",
+        "verdict_hi": "35g sugar aur 24.5g saturated fat? Bhai, yeh KitKat kam, KitFAT zyada hai. Break toh banta hai... from eating this!",
+        "emoji": "🍫",
+        "approved": false
       }
     },
     {
@@ -1912,6 +2152,14 @@
         },
         "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
         "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
+      },
+      "roast": {
+        "title_en": "Munch: Sugar Overload!",
+        "title_hi": "Munch: Cheeni ka Dhamaal!",
+        "verdict_en": "40g sugar per 100g? Bhai, this is a one-way ticket to diabetes. Saturated fat bhi full on hai. Avoid!",
+        "verdict_hi": "40g sugar per 100g? Dude, yeh toh seedha diabetes express hai. Saturated fat bhi bhara pada hai. Dur raho!",
+        "emoji": "🍬",
+        "approved": false
       }
     },
     {
@@ -1980,6 +2228,14 @@
         },
         "explanation": "Limit to 36g to stay within sodium limits.",
         "explanation_hindi": "36g tak hi khao, sodium ke liye."
+      },
+      "roast": {
+        "title_en": "Atta, Not Amrita!",
+        "title_hi": "Atta, Nahi Amrita!",
+        "verdict_en": "Veggie ke naam pe dhoka! This isn't healthy, dost. Sodium and fat levels are sky high - dil ka doctor bulao!",
+        "verdict_hi": "Veggie ke naam pe dhoka! Yeh healthy nahi hai, dost. Sodium aur fat itna zyada hai - dil ka doctor bulao!",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -2032,6 +2288,14 @@
         },
         "explanation": "Very limited portion recommended. Just 19g due to high saturated fat.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 19g kyunki saturated fat zyada hai."
+      },
+      "roast": {
+        "title_en": "KitKat: Sugar Rush Disaster",
+        "title_hi": "KitKat: Sugar ka Atank!",
+        "verdict_en": "It's basically a sugar and fat bomb disguised as a chocolate bar. Khaoge toh pachtaoge, nahi khaoge toh... maybe you'll live longer? ",
+        "verdict_hi": "Essentially, yeh toh chini aur charbi ka gola hai chocolate ke bhes mein. Khaoge toh pachtaoge, nahi toh... shayad zyaada jiyoge?",
+        "emoji": "🍫",
+        "approved": false
       }
     },
     {
@@ -2100,6 +2364,14 @@
         },
         "explanation": "Very limited portion recommended. Just 20g due to high sugar.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 20g kyunki sugar zyada hai."
+      },
+      "roast": {
+        "title_en": "Sugar Rush, No Mush",
+        "title_hi": "Sugar ka Dabba, No Dum",
+        "verdict_en": "Moosha? More like *Moo-sha*ve this sugar bomb far away! 49g of sugar per 100g? Aapke pancreas ki toh Diwali ho jayegi.",
+        "verdict_hi": "Moosha? Yeh toh sugar ka attack hai bhai! 49g sugar prati 100g mein? Your pancreas will be doing the bhangra.",
+        "emoji": "🍬",
+        "approved": false
       }
     },
     {
@@ -2167,6 +2439,14 @@
         },
         "explanation": "Very limited portion recommended. Just 20g due to high saturated fat.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 20g kyunki saturated fat zyada hai."
+      },
+      "roast": {
+        "title_en": "KitKat: Dark Truth",
+        "title_hi": "KitKat: Kaala Sach",
+        "verdict_en": "Dark chocolate, bright sugar content! 37 grams of sugar and 22 grams of saturated fat per 100g? This isn't healthy, bhai.",
+        "verdict_hi": "Dark chocolate, par sugar toh kamaal ka hai! 37 grams sugar aur 22 grams saturated fat per 100g? Yeh toh health ke liye bilkul bhi achha nahi hai, bhai.",
+        "emoji": "🍫",
+        "approved": false
       }
     },
     {
@@ -2232,6 +2512,14 @@
         },
         "explanation": "Limit to 45g to stay within sugar limits.",
         "explanation_hindi": "45g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Crunchilious, Sugar-licious!",
+        "title_hi": "Crunchilious, Sugar-licious!",
+        "verdict_en": "It's got crunch, alright. But 22g sugar per 100g? Thoda control, Nestle! Your pancreas will thank you.",
+        "verdict_hi": "Crunch toh hai, bhai. Lekin 22g sugar per 100g? Thoda control, Nestle! Aapka pancreas aapko shukriya kahega.",
+        "emoji": "🍬",
+        "approved": false
       }
     },
     {
@@ -2297,6 +2585,14 @@
         },
         "explanation": "Limit to 39g to stay within sugar limits.",
         "explanation_hindi": "39g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Parle-G: Not Gold",
+        "title_hi": "Parle-G: Sona Nahi Hai",
+        "verdict_en": "Gold? More like 'sugar rush' in a biscuit. It's got enough calories and saturated fat to make your doctor raise an eyebrow. Bach ke raho!",
+        "verdict_hi": "Gold? Biscuit mein 'sugar rush' zyada hai. Itni calories aur saturated fat hai ki doctor bhi bolega, 'Yeh kya hai?!'. Bach ke raho!",
+        "emoji": "⚠️",
+        "approved": false
       }
     },
     {
@@ -2349,6 +2645,14 @@
         },
         "explanation": "Limit to 40g to stay within sugar limits.",
         "explanation_hindi": "40g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Glucose ka Overdose!",
+        "title_hi": "Glucose का Overdose!",
+        "verdict_en": "Parle-G: It's basically sugar biscuits. Bachpan ki yaadein, but adulting means knowing better. Avoid daily dose!",
+        "verdict_hi": "Parle-G: Basically, yeh toh sugar biscuits hai. Bachpan ki yaadein, but adulting matlab samajhdari. Daily dose avoid karo!",
+        "emoji": "🍪",
+        "approved": false
       }
     },
     {
@@ -2401,6 +2705,14 @@
         },
         "explanation": "Limit to 31g to stay within sugar limits.",
         "explanation_hindi": "31g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Hide & Seek, Diabetes!",
+        "title_hi": "Hide & Seek, Diabetes!",
+        "verdict_en": "More like Hide & Seizure...of your pancreas. 32.5g sugar per 100g? Bhai, you're basically eating mithai disguised as a biscuit.",
+        "verdict_hi": "More like Hide & Seizure...of your pancreas. 32.5g sugar per 100g? Bhai, you're basically eating mithai disguised as a biscuit.",
+        "emoji": "💀",
+        "approved": false
       }
     },
     {
@@ -2463,6 +2775,14 @@
         },
         "explanation": "Limit to 39g to stay within sugar limits.",
         "explanation_hindi": "39g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Parle G: Sugar High!",
+        "title_hi": "Parle G: Sugar ka Dosa!",
+        "verdict_en": "Parle G: Nostalgia ka dose toh theek hai, lekin bhai, sugar dekho! It's basically mithai disguised as a biscuit.",
+        "verdict_hi": "Parle G: Nostalgia's dose is okay, but bro, look at the sugar! Yeh toh biscuit ke naam pe mithai hai.",
+        "emoji": "🍬",
+        "approved": false
       }
     },
     {
@@ -2522,6 +2842,14 @@
         },
         "explanation": "Limit to 65g to stay within sugar limits.",
         "explanation_hindi": "65g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Frooti: Sugar Overload",
+        "title_hi": "Frooti: Cheeni Bomb!",
+        "verdict_en": "Frooti, frooti, so much sugar, it's a loot-y! 15.5g per 100g? Bhai, diabetes bulaoge kya?",
+        "verdict_hi": "Frooti, frooti, itni cheeni, yeh toh hai loot-y! 15.5g per 100g? Dude, diabetes bulaoge kya?",
+        "emoji": "🥭",
+        "approved": false
       }
     },
     {
@@ -2569,6 +2897,14 @@
         },
         "explanation": "Limit to 78g to stay within sugar limits.",
         "explanation_hindi": "78g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Sugar Rush, No Fizz",
+        "title_hi": "Sugar Ka Dhamaaka, Fizz Gayab",
+        "verdict_en": "Almost 13g sugar per 100g? Bhai, this ain't apple juice, it's apple-flavored syrup. At least there's no sodium to make things worse.",
+        "verdict_hi": "Lagbhag 13g sugar per 100g? Bhai, yeh apple juice nahi, apple-flavored syrup hai. Kam se kam sodium nahi hai to aur bura nahi hoga.",
+        "emoji": "🍎",
+        "approved": false
       }
     },
     {
@@ -2619,6 +2955,14 @@
         },
         "explanation": "Limit to 45g to stay within saturated fat limits.",
         "explanation_hindi": "45g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "Monaco: Not-So-Healthy Bite",
+        "title_hi": "Monaco: Healthy Nahi Hai",
+        "verdict_en": "Zero sodium is nice, but saturated fat and high calories make this a 'sometimes' snack.  *Thoda* control, *yaar*!",
+        "verdict_hi": "Sodium toh *nil*, lekin saturated fat aur high calories?  *Kabhi kabhi* chalta hai. *Thoda* control, *mere bhai*!",
+        "emoji": "🧈",
+        "approved": false
       }
     },
     {
@@ -2671,6 +3015,14 @@
         },
         "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
         "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
+      },
+      "roast": {
+        "title_en": "Cashew? More like Cash-ew!",
+        "title_hi": "Cashew? More like Cash-ew! (Hindi mein bhi)",
+        "verdict_en": "20-20? More like 50-50 chance of diabetes. It's got enough sugar and saturated fat to make your heart go 'uffo!'",
+        "verdict_hi": "20-20? More like 50-50 chance of diabetes. It's got enough sugar aur saturated fat ki dil bolega, 'uffo!'",
+        "emoji": "🫀",
+        "approved": false
       }
     },
     {
@@ -2728,6 +3080,14 @@
         },
         "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
         "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
+      },
+      "roast": {
+        "title_en": "Happy? More like Crappy!",
+        "title_hi": "Happy? Zyada Crappy!",
+        "verdict_en": "Happy Happy? More like sugar, fat, calorie party! Your heart won't be happy, bhai.",
+        "verdict_hi": "Happy Happy? Ye toh sugar, fat aur calorie ka dhamaka hai! Dil toh dukhega, mere bhai.",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -2786,6 +3146,14 @@
         },
         "explanation": "Limit to 78g to stay within sugar limits.",
         "explanation_hindi": "78g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Appy Fizz: Fizzy Sugar",
+        "title_hi": "Appy Fizz: Meethi Bubbles",
+        "verdict_en": "It's basically sugar water, bhai! Zero sodium, zero fat, zero protein... just loads of sugar to give you that instant high.  Thoda kam piyo, dost.",
+        "verdict_hi": "Basically, yeh toh chini ka paani hai, bhai! Zero sodium, zero fat, zero protein... bas dher saari sugar hai jisse jhat se energy milegi. Thoda kam piyo, dost.",
+        "emoji": "🥤",
+        "approved": false
       }
     },
     {
@@ -2843,6 +3211,14 @@
         },
         "explanation": "Limit to 75g to stay within sugar limits.",
         "explanation_hindi": "75g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Mango, Sugar, Drama?",
+        "title_hi": "Aam, Sugar, Ya Drama?",
+        "verdict_en": "Frooti: It's basically mango-flavored sugar water. 13.3g sugar per 100g? Thoda kam karo, bhai!",
+        "verdict_hi": "Frooti: Basically aam ke flavor wala sugar ka paani. 13.3g sugar per 100g? Bhai, thoda kam karo!",
+        "emoji": "🥭",
+        "approved": false
       }
     },
     {
@@ -2911,6 +3287,14 @@
         },
         "explanation": "Limit to 31g to stay within sugar limits.",
         "explanation_hindi": "31g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Hide & Sugar Seek",
+        "title_hi": "Hide & Sugar Seek: Chhupa Rustom!",
+        "verdict_en": "Hide the diabetes, seek the doctor. This is basically a sugar brick with a hint of chocolate. *Thoda sa* protein *toh hai*, but *uska kya fayda*?",
+        "verdict_hi": "Diabetes chhupao, doctor ko dhundo. Yeh toh basically chocolate ka *chota* sugar brick hai. *Thoda sa* protein *toh hai*, but *uska kya fayda*? Doctor bulana padega!",
+        "emoji": "🍫",
+        "approved": false
       }
     },
     {
@@ -2958,6 +3342,14 @@
         },
         "explanation": "Limit to 82g to stay within calories limits.",
         "explanation_hindi": "82g tak hi khao, calories ke liye."
+      },
+      "roast": {
+        "title_en": "Crack Jack: Calorie Bomb",
+        "title_hi": "Crack Jack: Calorie ka Dhamaka",
+        "verdict_en": "Zero sugar is great, but 489 calories per 100g? Bhai, this is just empty carbs ka load. Better to eat a roti, yaar.",
+        "verdict_hi": "Sugar toh zero hai, achhi baat hai, lekin 489 calories per 100g? Bhai, yeh toh sirf empty carbs ka load hai. Roti khao toh behtar hai, yaar.",
+        "emoji": "💣",
+        "approved": false
       }
     },
     {
@@ -3019,6 +3411,14 @@
         },
         "explanation": "Limit to 73g to stay within sugar limits.",
         "explanation_hindi": "73g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Smoodh: Sugar Rush!",
+        "title_hi": "Smoodh: Sugar ka Dabba!",
+        "verdict_en": "Thoda protein, bohot sugar. Basically chocolate milk posing as healthy. Bach ke rehna!",
+        "verdict_hi": "Thoda protein, zyada sugar. Yeh toh chocolate milk hai jo healthy banne ki koshish kar raha hai. Sambhal ke!",
+        "emoji": "🍫",
+        "approved": false
       }
     },
     {
@@ -3084,6 +3484,14 @@
         },
         "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
         "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
+      },
+      "roast": {
+        "title_en": "Hide & Seek: Exposed!",
+        "title_hi": "Hide & Seek: Sachchai!",
+        "verdict_en": "Hide the sugar, seek something healthier! Almost 30g sugar per 100g? Bhai, diabetes bulaoge kya?",
+        "verdict_hi": "Sugar chhupao, kuch toh healthy dhundo! 30g sugar prati 100g? Bhai, diabetes bulaoge kya?",
+        "emoji": "🍬",
+        "approved": false
       }
     },
     {
@@ -3152,6 +3560,14 @@
         },
         "explanation": "Limit to 31g to stay within sugar limits.",
         "explanation_hindi": "31g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Hide & Seek...Diabetes!",
+        "title_hi": "Hide & Seek...Diabetes!",
+        "verdict_en": "This biscuit is basically sugar and fat pretending to be coffee. _Arre bhai_, hide and seek with your health at this rate!",
+        "verdict_hi": "Yeh biscuit basically sugar aur fat hai, coffee banne ka acting kar raha hai. _Arre bhai_, aise rate pe apne health ke saath hide and seek khelo!",
+        "emoji": "🍪",
+        "approved": false
       }
     },
     {
@@ -3214,6 +3630,14 @@
         },
         "explanation": "Very limited portion recommended. Just 27g due to high sugar.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 27g kyunki sugar zyada hai."
+      },
+      "roast": {
+        "title_en": "Bourbon: Sugar Rush!",
+        "title_hi": "Bourbon: Meetha Attack!",
+        "verdict_en": "Britannia Bourbon? More like Britannia 'Burnin' your health! 'Itna' sugar and saturated fat? Dil ke liye khatarnak, bhai. ",
+        "verdict_hi": "Britannia Bourbon? Matlab Britannia 'Burnin' your health! 'Itna' sugar aur saturated fat? Heart ke liye dangerous, bhai.",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -3281,6 +3705,14 @@
         },
         "explanation": "Limit to 46g to stay within sugar limits.",
         "explanation_hindi": "46g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Marie Gold: Not So Gold",
+        "title_hi": "Marie Gold: Itna bhi Sona nahi",
+        "verdict_en": "Marie Gold? More like Marie 'Sugar Rush'. 21.9g sugar per 100g? Thoda control, yaar!",
+        "verdict_hi": "Marie Gold? Yeh toh Marie 'Sugar Rush' nikla. 21.9g sugar per 100g? Bhai, thoda toh control kar!",
+        "emoji": "🍪",
+        "approved": false
       }
     },
     {
@@ -3347,6 +3779,14 @@
         },
         "explanation": "Limit to 42g to stay within saturated fat limits.",
         "explanation_hindi": "42g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "Digestive? More like congestive.",
+        "title_hi": "Digestive? Congestive zyada lagta hai.",
+        "verdict_en": "Nutri Choice? More like 'Nutri *Chaotic*' with that saturated fat! Zero sodium is nice, but the calories will haunt you later, bhai.",
+        "verdict_hi": "Nutri Choice? 'Nutri *Chaotic*' bolo saturated fat dekh ke! Sodium nahi hai, achchi baat hai, lekin calorie toh picha nahi chorega, bhai.",
+        "emoji": "🫀",
+        "approved": false
       }
     },
     {
@@ -3415,6 +3855,14 @@
         },
         "explanation": "Limit to 40g to stay within saturated fat limits.",
         "explanation_hindi": "40g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "Bad Day, Good Sugar",
+        "title_hi": "Bad Day, Good Sugar",
+        "verdict_en": "Good Day? More like Good *Rogue* Sugar! 22 grams of sugar per 100g? Diabetes ko invitation bhej rahe ho kya?",
+        "verdict_hi": "Good Day? More like Good *Rogue* Sugar! 22 grams sugar per 100g? Diabetes ko invitation bhej rahe ho kya?",
+        "emoji": "🍪",
+        "approved": false
       }
     },
     {
@@ -3476,6 +3924,14 @@
         },
         "explanation": "Limit to 41g to stay within sugar limits.",
         "explanation_hindi": "41g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Little Hearts, Big Regret",
+        "title_hi": "Chhote Hearts, Bada Pachtava",
+        "verdict_en": "These 'hearts' will clog your arteries faster than you can say 'sugar rush'. 24g sugar? Bhai, diabetes speedrun!",
+        "verdict_hi": "Yeh 'hearts' aapki arteries ko 'sugar rush' se bhi zyada tezi se clog karenge. 24g sugar? Bhai, diabetes speedrun!",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -3533,6 +3989,14 @@
         },
         "explanation": "Very limited portion recommended. Just 27g due to high sugar.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 27g kyunki sugar zyada hai."
+      },
+      "roast": {
+        "title_en": "Brit Bourbon: Sugar Rush!",
+        "title_hi": "Brit Bourbon: Sugar Ka Dosa!",
+        "verdict_en": "Britannia Bourbon? More like Britannia 'Burn'out. This is basically sugar and fat disguised as a biscuit, bhai!",
+        "verdict_hi": "Britannia Bourbon? Yeh toh seedha 'burn'out hai. Itna sugar aur fat, biscuit ke naam pe dhoka hai!",
+        "emoji": "🍪",
+        "approved": false
       }
     },
     {
@@ -3587,6 +4051,14 @@
         },
         "explanation": "Limit to 46g to stay within sugar limits.",
         "explanation_hindi": "46g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Marie Gold, More Harm",
+        "title_hi": "Marie Gold, Zyada Dard",
+        "verdict_en": "Britannia Marie Gold? More like Marie 'Gained' weight! Sugar aur saturated fat ka dosti, health ke liye dushmani. 🙅🏽‍♀️",
+        "verdict_hi": "Britannia Marie Gold? Woh toh Marie 'Gained' weight jaisa hai! Sugar aur saturated fat ki dosti, health ke liye dushmani. 🙅🏽‍♀️",
+        "emoji": "🙅🏽‍♀️",
+        "approved": false
       }
     },
     {
@@ -3640,6 +4112,14 @@
         },
         "explanation": "Limit to 43g to stay within saturated fat limits.",
         "explanation_hindi": "43g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "Nutri-CON, Not Choice",
+        "title_hi": "Nutri-CON, Choice Nahi",
+        "verdict_en": "Nutri Choice? More like 'sodium and saturated fat' choice.  It's biscuit, not health food, bhai!",
+        "verdict_hi": "Nutri Choice? Yeh toh 'sodium aur saturated fat' choice hai. Biscuit hai, health food nahi, bhai!",
+        "emoji": "🧂",
+        "approved": false
       }
     },
     {
@@ -3703,6 +4183,14 @@
         },
         "explanation": "Limit to 38g to stay within sugar limits.",
         "explanation_hindi": "38g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Milk Bikis: Sugar Rush!",
+        "title_hi": "Milk Bikis: Cheeni Dhamaka!",
+        "verdict_en": "Doodh ka naam, sugar ka kaam! It's basically a dessert disguised as a biscuit. Bachpan yaad dilayega, but your body will cry later. ",
+        "verdict_hi": "Doodh ka naam, sugar ka kaam! Yeh toh biscuit ke bhes mein mithai hai. Bachpan toh yaad dila dega, par body baad mein royegi.",
+        "emoji": "🍬",
+        "approved": false
       }
     },
     {
@@ -3771,6 +4259,14 @@
         },
         "explanation": "Very limited portion recommended. Just 30g due to high sugar.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 30g kyunki sugar zyada hai."
+      },
+      "roast": {
+        "title_en": "Jimjam: Sugar Rush Hour",
+        "title_hi": "Jimjam: Cheeni ka Daur",
+        "verdict_en": "33.5g sugar per 100g? Bhai, diabetes bula rahe ho kya? This is basically a sugar cookie with a hint of biscuit.",
+        "verdict_hi": "33.5g cheeni prati 100g? Bhai, diabetes ko invitation bhej rahe ho kya? Yeh toh biscuit ke naam pe cheeni ka dabba hai.",
+        "emoji": "🍪",
+        "approved": false
       }
     },
     {
@@ -3836,6 +4332,14 @@
         },
         "explanation": "Limit to 40g to stay within saturated fat limits.",
         "explanation_hindi": "40g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "Good Day, Bad News",
+        "title_hi": "Good Day, Buri Khabar",
+        "verdict_en": "Good Day? More like 'Bad Day' for your arteries! With that much sugar and saturated fat, your heart will be saying, 'Nahin chahiye!'",
+        "verdict_hi": "Good Day? Arre bhai, yeh toh aapke arteries ke liye 'Bad Day' hai! Itna sugar aur saturated fat? Dil bolega, 'Nahin chahiye!'",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -3899,6 +4403,14 @@
         },
         "explanation": "Limit to 63g to stay within saturated fat limits.",
         "explanation_hindi": "63g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "Sugar-Free Fat Trap",
+        "title_hi": "Sugar-free, Fat ka Jaal",
+        "verdict_en": "Zero sugar, but full calorie dhamaka and saturated fat. 'Nutri' is a bit misleading, bhai!",
+        "verdict_hi": "Sugar toh zero hai, lekin calorie ka dher aur saturated fat bhara pada hai. 'Nutri' naam thoda dhoka de raha hai, yaar!",
+        "emoji": "⚠️",
+        "approved": false
       }
     },
     {
@@ -3951,6 +4463,14 @@
         },
         "explanation": "Limit to 33g to stay within sugar limits.",
         "explanation_hindi": "33g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Nice Time, Bad Choice",
+        "title_hi": "Nice Time, Buri Pasand",
+        "verdict_en": "Nice Time? More like 'Sugar Time'! 30g sugar per 100g is a diabetes invitation. Avoid, yaar!",
+        "verdict_hi": "Nice Time? Yeh toh 'Sugar Time' hai! 30g sugar matlab diabetes ko bulawa. Door raho, bhai!",
+        "emoji": "💀",
+        "approved": false
       }
     },
     {
@@ -4018,6 +4538,14 @@
         },
         "explanation": "Limit to 34g to stay within saturated fat limits.",
         "explanation_hindi": "34g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "5050: Salty Fat Bomb",
+        "title_hi": "5050: Namkeen Fat Bomb",
+        "verdict_en": "Britannia 5050? More like 50/50 chance of heart problems. That sodium and saturated fat content is just *too* high, bhai. Dil ke liye khatarnak!",
+        "verdict_hi": "Britannia 5050? More like 50/50 chance of heart problems. Itna sodium aur saturated fat? Bhai, seedha dil pe attack! Dil ke liye khatarnak!",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -4072,6 +4600,14 @@
         },
         "explanation": "Very limited portion recommended. Just 22g due to high sodium.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 22g kyunki sodium zyada hai."
+      },
+      "roast": {
+        "title_en": "Vita Meri? Vita Scary!",
+        "title_hi": "Vita Meri? Vita Darr!",
+        "verdict_en": "Meri ho ya teri, this biscuit's got more sodium than the Dead Sea. Sugar and saturated fat bhi full-on hai; your heart will cry.",
+        "verdict_hi": "Meri ho ya teri, iss biscuit mein Dead Sea se bhi zyada sodium hai. Sugar aur saturated fat bhi full-on hai; tumhara dil royega.",
+        "emoji": "🧂",
+        "approved": false
       }
     },
     {
@@ -4137,6 +4673,14 @@
         },
         "explanation": "Limit to 34g to stay within saturated fat limits.",
         "explanation_hindi": "34g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "50-50, 100% Fat",
+        "title_hi": "50-50, poora fat-fat!",
+        "verdict_en": "Britannia 50-50? More like 50-50 chance of heart disease. That saturated fat content is *too* high. Sodium zero, but fat hero!",
+        "verdict_hi": "Britannia 50-50? Dil ke liye danger zone. Itna saturated fat? Bhai bhai bhai! Sodium toh zero hai, par fat toh hero!",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -4205,6 +4749,14 @@
         },
         "explanation": "Limit to 37g to stay within sugar limits.",
         "explanation_hindi": "37g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Fruity Fun...For Your Dentist",
+        "title_hi": "Fruity Fun...Danto ke liye!",
+        "verdict_en": "Gobble this down, and your blood sugar will go 'gobble' too. So much sugar and fat; it's basically dessert disguised as a snack.  Bach ke rehna!",
+        "verdict_hi": "Isko 'gobble' karo, aur tumhara blood sugar bhi 'gobble' karega!  Itna sugar aur fat; yeh toh snack ke bhes mein mithai hai. Bach ke rehna!",
+        "emoji": "🦷",
+        "approved": false
       }
     },
     {
@@ -4259,6 +4811,14 @@
         },
         "explanation": "Limit to 40g to stay within sugar limits.",
         "explanation_hindi": "40g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Vita Marie: Gold Digger",
+        "title_hi": "Vita Marie: Sone ki Khodak",
+        "verdict_en": "Marie Gold? More like Marie *Ghold*. Packed with sugar and sodium, this biscuit will steal your health, not just your chai time. ",
+        "verdict_hi": "Marie Gold? Yeh toh *Marie Ghotala* hai! Sugar aur sodium se bharaa, yeh biscuit aapki sehat chura lega, sirf aapka chai time nahi.",
+        "emoji": "💀",
+        "approved": false
       }
     },
     {
@@ -4322,6 +4882,14 @@
         },
         "explanation": "Limit to 40g to stay within saturated fat limits.",
         "explanation_hindi": "40g tak hi khao, saturated fat ke liye."
+      },
+      "roast": {
+        "title_en": "Good Day? More Like Bad!",
+        "title_hi": "Good Day? More Like Bura!",
+        "verdict_en": "Good Day? More like 'Good Bye' to your arteries. This much sugar and saturated fat? Thoda toh reham karo, Britannia!",
+        "verdict_hi": "Good Day? More like 'Good Bye' to your arteries. Itna sugar aur saturated fat? Thoda toh reham karo, Britannia!",
+        "emoji": "🧈",
+        "approved": false
       }
     },
     {
@@ -4374,6 +4942,14 @@
         },
         "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
         "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
+      },
+      "roast": {
+        "title_en": "Tiger Krunch: Sugar Rush",
+        "title_hi": "Tiger Krunch: Cheeni ka Dabba",
+        "verdict_en": "Tiger *Krunch*? More like Tiger *Sugar-Rush*. 30g sugar per 100g? Bachpan mein diabetes free nahi rehna kya?",
+        "verdict_hi": "Tiger *Krunch*? Yeh toh Tiger *Sugar-Rush* hai bhai! 30g cheeni per 100g? Bachpan mein diabetes free nahi rehna kya?",
+        "emoji": "🐅",
+        "approved": false
       }
     },
     {
@@ -4440,6 +5016,14 @@
         },
         "explanation": "Limit to 37g to stay within sugar limits.",
         "explanation_hindi": "37g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Fruity, Fun...Fatty!",
+        "title_hi": "Fruity, Fun...Fatty!",
+        "verdict_en": "Britannia's Fruity Fun? More like 'Sugar Shock'. It's basically cake with a side of cake, skip it.",
+        "verdict_hi": "Britannia ka Fruity Fun? 'Sugar Shock' zyada sahi rahega. Yeh toh cake ke saath cake free jaisa hai, avoid karo.",
+        "emoji": "🍰",
+        "approved": false
       }
     },
     {
@@ -4493,6 +5077,14 @@
         },
         "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
         "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
+      },
+      "roast": {
+        "title_en": "Chaach: Not Bad, Yaar!",
+        "title_hi": "Chaach: Not Bad, Yaar!",
+        "verdict_en": "Amul Masti Buttermilk? Not bad, actually! Low sugar, decent protein... but watch that sodium, bhai. Thoda control karo.",
+        "verdict_hi": "Amul Masti Buttermilk? Itna bhi bura nahi hai, actually! Sugar kam hai, protein bhi theek-thaak... lekin sodium pe nazar rakho, bhai. Thoda control karo.",
+        "emoji": "🥛",
+        "approved": false
       }
     },
     {
@@ -4548,6 +5140,14 @@
         },
         "explanation": "Very limited portion recommended. Just 9g due to high saturated fat.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 9g kyunki saturated fat zyada hai."
+      },
+      "roast": {
+        "title_en": "Butter: Bad for Heart",
+        "title_hi": "Butter: Dil ke liye Bura",
+        "verdict_en": "Amul butter? More like Amul-ance! So much saturated fat and sodium, your heart will be saying 'bye bye' sooner than you think. Thoda kam khao, bhai!",
+        "verdict_hi": "Amul butter? More like Amul-ance! Itna saturated fat aur sodium, aapka dil toh jaldi hi 'bye bye' bolega. Thoda kam khao, bhai!",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -4602,6 +5202,14 @@
         },
         "explanation": "Very limited portion recommended. Just 9g due to high saturated fat.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 9g kyunki saturated fat zyada hai."
+      },
+      "roast": {
+        "title_en": "Amul: Fat-tastic Disaster",
+        "title_hi": "Amul: Fat-astic Barbadi",
+        "verdict_en": "Nearly 50g of saturated fat per 100g? Bhai, this isn't butter, it's a heart attack waiting to happen. Thoda toh reham karo, Amul!",
+        "verdict_hi": "Lagbhag 50g saturated fat har 100g mein? Bhai, yeh butter nahi, seedha heart attack hai. Thoda toh reham karo, Amul!",
+        "emoji": "💔",
+        "approved": false
       }
     },
     {
@@ -4656,6 +5264,14 @@
         },
         "explanation": "Limit to 69g to stay within sugar limits.",
         "explanation_hindi": "69g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Amul Lassi: Sugar Rush",
+        "title_hi": "Amul Lassi: Meetha Bomb!",
+        "verdict_en": "It's lassi, alright. But at 14.5g sugar per 100g, your gut will be doing the bhangra. Thoda control, mere bhai!",
+        "verdict_hi": "Lassi toh hai, bhai. Lekin 14.5g sugar per 100g? Pet mein bhangra hoga! Thoda control, mere bhai!",
+        "emoji": "🍹",
+        "approved": false
       }
     },
     {
@@ -4708,6 +5324,14 @@
         },
         "explanation": "Very limited portion recommended. Just 9g due to high saturated fat.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 9g kyunki saturated fat zyada hai."
+      },
+      "roast": {
+        "title_en": "Butter: Heart Attack Express",
+        "title_hi": "Butter: Seedha Heart Attack",
+        "verdict_en": "Amul butter? More like Amul-ance required. Sodium, saturated fat, calories - teen guna zyada! Dil ke liye khatarnak.",
+        "verdict_hi": "Amul butter? More like ambulance bulao. Sodium, saturated fat, calories - teen guna zyada! Heart ke liye danger zone.",
+        "emoji": "🫀",
+        "approved": false
       }
     },
     {
@@ -4757,6 +5381,14 @@
         },
         "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
         "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
+      },
+      "roast": {
+        "title_en": "Amul Taaza: Okay, Boss",
+        "title_hi": "Amul Taaza: Theek Hai, Boss",
+        "verdict_en": "Not bad, not great. It's basically doodh without the drama. Koi tension nahi, but koi excitement bhi nahi. 🤷🏽",
+        "verdict_hi": "Na zyada bura, na zyada achha. Yeh basically doodh hai, bina kisi drama ke. Koi tension nahi, lekin koi excitement bhi nahi. 🤷🏽",
+        "emoji": "🥛",
+        "approved": false
       }
     },
     {
@@ -4818,6 +5450,14 @@
         },
         "explanation": "Very limited portion recommended. Just 16g due to high saturated fat.",
         "explanation_hindi": "Bahut kam khana chahiye. Sirf 16g kyunki saturated fat zyada hai."
+      },
+      "roast": {
+        "title_en": "Sugar Rush Nightmare",
+        "title_hi": "Sugar ka Bhoot!",
+        "verdict_en": "Amul Chocominis? More like Amul 'Choco-maxi-sugar'. Diabetes is typing...",
+        "verdict_hi": "Amul Chocominis? Nahi, yeh toh seedha 'sugar-bomb' hai! Insulin injection ready rakho, bhai.",
+        "emoji": "💀",
+        "approved": false
       }
     },
     {
@@ -4867,6 +5507,14 @@
         },
         "explanation": "Limit to 417g to stay within sugar limits.",
         "explanation_hindi": "417g tak hi khao, sugar ke liye."
+      },
+      "roast": {
+        "title_en": "Milky Milk: Not Bad",
+        "title_hi": "Doodh ka Doodh, theek hai",
+        "verdict_en": "Amul Taaza is basically water pretending to be milk. But hey, at least it's low calorie and sodium-free, *kuch toh achha hai*!",
+        "verdict_hi": "Amul Taaza basically paani hai jo doodh banne ka natak kar raha hai. Lekin *chalo*, kam se kam low calorie aur sodium-free toh hai, *kuch toh achha hai*!",
+        "emoji": "🥛",
+        "approved": false
       }
     },
     {
@@ -4916,6 +5564,14 @@
         },
         "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
         "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
+      },
+      "roast": {
+        "title_en": "Gold...ish, Not Pure",
+        "title_hi": "Gold...ish, Pure Nahi",
+        "verdict_en": "Amul Gold Milky Milk: Saturated fat content is a bit high, bhai. It's milk, not dessert!",
+        "verdict_hi": "Amul Gold Milky Milk: Saturated fat thoda zyada hai, bhai. Ye doodh hai, dessert nahi!",
+        "emoji": "🥛",
+        "approved": false
       }
     }
   ]
