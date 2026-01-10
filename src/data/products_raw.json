@@ -1,12 +1,12 @@
 {
   "source": "Open Food Facts",
   "fetched_at": "2026-01-10 14:19:28",
-  "count": 82,
+  "count": 100,
   "products": [
     {
       "id": "8901058000290",
       "slug": "nestlé-maggi",
-      "name": "Nestlé Maggi",
+      "name": "Nestlé maggi",
       "brand": "Nestlé",
       "category": "Ready To Eat",
       "category_slug": "ready-to-eat",
@@ -43,86 +43,52 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/0290/front_en.26.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058000290",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 7,
-        "baseline_points": 12,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "High saturated fat (8.1g per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 54,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 1.8,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 2.1,
-          "saturated_fat": 20.0,
-          "calories": 10.4
-        },
-        "explanation": "Limit to 54g to stay within saturated fat limits.",
-        "explanation_hindi": "54g tak hi khao, saturated fat ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058000290"
     },
     {
-      "id": "8901058000252",
+      "id": "8901058000269",
       "slug": "maggi",
       "name": "Maggi",
       "brand": "Maggi",
-      "category": "Namkeen",
-      "category_slug": "namkeen",
-      "package_size_g": 100,
+      "category": "Ready To Eat",
+      "category_slug": "ready-to-eat",
+      "package_size_g": 280.0,
       "nutrients": {
         "energy_kcal": 384.0,
-        "protein_g": 8.2,
+        "protein_g": 8.1,
         "carbohydrates_g": 59.6,
-        "sugar_g": 1.8,
-        "total_fat_g": 12.5,
-        "saturated_fat_g": 8.2,
+        "sugar_g": 1.9,
+        "total_fat_g": 12.6,
+        "saturated_fat_g": 0,
         "fiber_g": 0,
-        "sodium_mg": 1000.0
+        "sodium_mg": 0
       },
-      "ingredients": [],
-      "flags": [
-        "High Sodium",
-        "High Saturated Fat"
+      "ingredients": [
+        "Noodles: Refined wheat flour (Maida)",
+        "Paim oil",
+        "lodized salt",
+        "Wheat gluten",
+        "Thickeners (508&412)",
+        "Acidity regulators (501 (i) & 500 (i) and Humectant (451 (i)). Masala *TASTEMAKER®: Mixed spices (25.6%) (Onion powder Coriander powder",
+        "Turmerie newder",
+        "Red chilli powder",
+        "Garlic powder Cumin powder",
+        "Aniseed powder",
+        "powder",
+        "Fenugreek powder",
+        "Black pepper powder",
+        "Clove powder",
+        "Green cardamom powder & Nutmeg powder)"
       ],
-      "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/0252/front_en.4.400.jpg",
+      "flags": [],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/0269/front_en.39.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058000252",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 17,
-        "baseline_points": 22,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "High sodium (1000.0mg per 100g)",
-          "High saturated fat (8.2g per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 40,
-        "limiting_factor": "sodium",
-        "servings_per_package": 2.5,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 1.4,
-          "saturated_fat": 14.9,
-          "calories": 7.7
-        },
-        "explanation": "Limit to 40g to stay within sodium limits.",
-        "explanation_hindi": "40g tak hi khao, sodium ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058000269"
     },
     {
       "id": "8901058000306",
       "slug": "nestle-maggi-noodles-masala",
-      "name": "Nestle Maggi Noodles Masala",
+      "name": "Nestle Maggi noodles masala",
       "brand": "Nestle",
       "category": "Ready To Eat",
       "category_slug": "ready-to-eat",
@@ -160,36 +126,54 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/0306/front_en.10.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058000306",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 14,
-        "baseline_points": 21,
-        "modifying_points": 7,
-        "limiting_factors": [
-          "High sodium (1000.0mg per 100g)",
-          "High saturated fat (7.9g per 100g)"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8901058000306"
+    },
+    {
+      "id": "8901058005608",
+      "slug": "maggi-1",
+      "name": "Maggi",
+      "brand": "Maggi",
+      "category": "Ready To Eat",
+      "category_slug": "ready-to-eat",
+      "package_size_g": 100,
+      "nutrients": {
+        "energy_kcal": 385.0,
+        "protein_g": 8.3,
+        "carbohydrates_g": 59.6,
+        "sugar_g": 1.7,
+        "total_fat_g": 12.5,
+        "saturated_fat_g": 8.3,
+        "fiber_g": 0,
+        "sodium_mg": 0
       },
-      "safe_limit": {
-        "recommended_serving_g": 40,
-        "limiting_factor": "sodium",
-        "servings_per_package": 14.0,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 1.1,
-          "saturated_fat": 14.4,
-          "calories": 7.7
-        },
-        "explanation": "Limit to 40g to stay within sodium limits.",
-        "explanation_hindi": "40g tak hi khao, sodium ke liye."
-      }
+      "ingredients": [
+        "Noodles: Refined wheat flour (Maida)",
+        "Palm oil",
+        "lodized salt",
+        "Wheat gluten",
+        "Thickeners (508 & 412)",
+        "Acidity regulators (501(i) & 500 (i)) and Humectant (451 (i)). \nMasala *TASTEMAKER®: Mixed spices (25.6%) (Onion powder",
+        "Coriander powder",
+        "Turmeric powder",
+        "Red chilli powder",
+        "Garlic powder",
+        "Cumin powder",
+        "Aniseed powder",
+        "Ginger powder",
+        "Fenugreek powder",
+        "Black pepper powder"
+      ],
+      "flags": [
+        "High Saturated Fat"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/5608/front_en.6.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901058005608"
     },
     {
       "id": "19010588",
       "slug": "maggi-chicken-noodles",
-      "name": "Maggi Chicken Noodles",
+      "name": "Maggi Chicken noodles",
       "brand": "Maggi",
       "category": "Ready To Eat",
       "category_slug": "ready-to-eat",
@@ -227,32 +211,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/000/001/901/0588/front_en.15.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/19010588",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 15,
-        "baseline_points": 22,
-        "modifying_points": 7,
-        "limiting_factors": [
-          "High sodium (1300.0mg per 100g)",
-          "High saturated fat (7.2g per 100g)",
-          "High calorie density (434.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 31,
-        "limiting_factor": "sodium",
-        "servings_per_package": 2.3,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 1.0,
-          "saturated_fat": 10.1,
-          "calories": 6.7
-        },
-        "explanation": "Limit to 31g to stay within sodium limits.",
-        "explanation_hindi": "31g tak hi khao, sodium ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/19010588"
     },
     {
       "id": "0941458000290",
@@ -295,37 +254,39 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/094/145/800/0290/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/0941458000290",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 12,
-        "baseline_points": 20,
-        "modifying_points": 8,
-        "limiting_factors": [
-          "High sodium (700.0mg per 100g)",
-          "High saturated fat (8.6g per 100g)",
-          "High calorie density (443.0kcal per 100g)"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/0941458000290"
+    },
+    {
+      "id": "8901058000252",
+      "slug": "maggi-8901058000252",
+      "name": "Maggi 8901058000252",
+      "brand": "Maggi",
+      "category": "Namkeen",
+      "category_slug": "namkeen",
+      "package_size_g": 100,
+      "nutrients": {
+        "energy_kcal": 384.0,
+        "protein_g": 8.2,
+        "carbohydrates_g": 59.6,
+        "sugar_g": 1.8,
+        "total_fat_g": 12.5,
+        "saturated_fat_g": 8.2,
+        "fiber_g": 0,
+        "sodium_mg": 1000.0
       },
-      "safe_limit": {
-        "recommended_serving_g": 51,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 2.0,
-        "daily_percentages": {
-          "sodium": 17.9,
-          "sugar": 3.0,
-          "saturated_fat": 20.0,
-          "calories": 11.3
-        },
-        "explanation": "Limit to 51g to stay within saturated fat limits.",
-        "explanation_hindi": "51g tak hi khao, saturated fat ke liye."
-      }
+      "ingredients": [],
+      "flags": [
+        "High Sodium",
+        "High Saturated Fat"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/0252/front_en.4.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901058000252"
     },
     {
       "id": "8901058000276",
       "slug": "maggi-2-mins-noodles-30-mrp",
-      "name": "Maggi 2 Mins Noodles 30 Mrp",
+      "name": "Maggi 2 Mins Noodles 30 MRP",
       "brand": "Maggi",
       "category": "Ready To Eat",
       "category_slug": "ready-to-eat",
@@ -344,35 +305,12 @@
       "flags": [],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/0276/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058000276",
-      "mizan_score": {
-        "stars": 5,
-        "grade": "A",
-        "inr_score": -1,
-        "baseline_points": 4,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "No major concerns"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 100,
-        "limiting_factor": "calories",
-        "servings_per_package": 1.0,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 0.0,
-          "saturated_fat": 0.0,
-          "calories": 19.2
-        },
-        "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
-        "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058000276"
     },
     {
       "id": "8901058895780",
       "slug": "maggi-hot-sweet-tomato-chili-sauce",
-      "name": "Maggi Hot & Sweet Tomato Chili Sauce",
+      "name": "Maggi Hot & sweet tomato chili sauce",
       "brand": "Maggi",
       "category": "Namkeen",
       "category_slug": "namkeen",
@@ -405,30 +343,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/889/5780/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058895780",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 10,
-        "baseline_points": 11,
-        "modifying_points": 1,
-        "limiting_factors": [
-          "High sodium (800.0mg per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 50,
-        "limiting_factor": "sodium",
-        "servings_per_package": 10.0,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 11.1,
-          "saturated_fat": 0.0,
-          "calories": 3.2
-        },
-        "explanation": "Limit to 50g to stay within sodium limits.",
-        "explanation_hindi": "50g tak hi khao, sodium ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058895780"
     },
     {
       "id": "8901058851298",
@@ -471,37 +386,48 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/885/1298/front_en.31.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058851298",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 13,
-        "baseline_points": 22,
-        "modifying_points": 9,
-        "limiting_factors": [
-          "High sodium (1200.0mg per 100g)",
-          "High saturated fat (6.8g per 100g)",
-          "High calorie density (437.0kcal per 100g)"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8901058851298"
+    },
+    {
+      "id": "8901058001181",
+      "slug": "maggi-2",
+      "name": "Maggi",
+      "brand": "Maggi",
+      "category": "Namkeen",
+      "category_slug": "namkeen",
+      "package_size_g": 1000.0,
+      "nutrients": {
+        "energy_kcal": 83.0,
+        "protein_g": 0.8,
+        "carbohydrates_g": 19.9,
+        "sugar_g": 18.7,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "fiber_g": 0,
+        "sodium_mg": 200.0
       },
-      "safe_limit": {
-        "recommended_serving_g": 33,
-        "limiting_factor": "sodium",
-        "servings_per_package": 2.1,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 3.3,
-          "saturated_fat": 10.3,
-          "calories": 7.3
-        },
-        "explanation": "Limit to 33g to stay within sodium limits.",
-        "explanation_hindi": "33g tak hi khao, sodium ke liye."
-      }
+      "ingredients": [
+        "Water",
+        "Tomato paste (24.5%)",
+        "Sugar",
+        "lodized salt",
+        "Acidity regulator (260)",
+        "Thickeners (1422 & 415)",
+        "Dehydrated onion",
+        "Dried garlic",
+        "Preservative (211) and Mixed spices."
+      ],
+      "flags": [
+        "High Sugar"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/1181/front_en.17.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901058001181"
     },
     {
       "id": "8901058001198",
       "slug": "maggi-rich-tomato-ketchup",
-      "name": "Maggi Rich Tomato Ketchup",
+      "name": "Maggi Rich tomato ketchup",
       "brand": "Maggi",
       "category": "Namkeen",
       "category_slug": "namkeen",
@@ -535,36 +461,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/1198/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058001198",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 11,
-        "baseline_points": 11,
-        "modifying_points": 0,
-        "limiting_factors": [
-          "High sodium (600.0mg per 100g)",
-          "High sugar (18.7g per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 53,
-        "limiting_factor": "sugar",
-        "servings_per_package": 9.1,
-        "daily_percentages": {
-          "sodium": 16.0,
-          "sugar": 20.0,
-          "saturated_fat": 0.0,
-          "calories": 2.2
-        },
-        "explanation": "Limit to 53g to stay within sugar limits.",
-        "explanation_hindi": "53g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058001198"
     },
     {
       "id": "8901058007220",
       "slug": "maggi-e-masala-magic",
-      "name": "Maggi E Masala Magic",
+      "name": "Maggi e masala magic",
       "brand": "Maggi",
       "category": "Namkeen",
       "category_slug": "namkeen",
@@ -583,35 +485,74 @@
       "flags": [],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/7220/front_en.11.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058007220",
-      "mizan_score": {
-        "stars": 5,
-        "grade": "A",
-        "inr_score": -2,
-        "baseline_points": 5,
-        "modifying_points": 7,
-        "limiting_factors": [
-          "No major concerns"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8901058007220"
+    },
+    {
+      "id": "8901058901511",
+      "slug": "maggi-2-minute-noodles-1",
+      "name": "Maggi 2-minute noodles",
+      "brand": "Maggi",
+      "category": "Ready To Eat",
+      "category_slug": "ready-to-eat",
+      "package_size_g": 100,
+      "nutrients": {
+        "energy_kcal": 427.0,
+        "protein_g": 8.0,
+        "carbohydrates_g": 63.5,
+        "sugar_g": 2.2,
+        "total_fat_g": 15.7,
+        "saturated_fat_g": 6.8,
+        "fiber_g": 3.6,
+        "sodium_mg": 500.0
       },
-      "safe_limit": {
-        "recommended_serving_g": 74,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.3,
-        "daily_percentages": {
-          "sodium": 0.4,
-          "sugar": 20.0,
-          "saturated_fat": 4.7,
-          "calories": 6.1
-        },
-        "explanation": "Limit to 74g to stay within sugar limits.",
-        "explanation_hindi": "74g tak hi khao, sugar ke liye."
-      }
+      "ingredients": [
+        "refined wheat flour",
+        "palm oil",
+        "calcium carbonate",
+        "potassium chloride",
+        "sodium phosphate",
+        "potassium carbonate",
+        "sodium carbonate",
+        "guar gum"
+      ],
+      "flags": [
+        "High Saturated Fat"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/105/890/1511/front_en.8.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901058901511"
+    },
+    {
+      "id": "8901058001433",
+      "slug": "maggi-rich-tomato-ketchup-1",
+      "name": "Maggi Rich Tomato Ketchup",
+      "brand": "Maggi",
+      "category": "Namkeen",
+      "category_slug": "namkeen",
+      "package_size_g": 280.0,
+      "nutrients": {
+        "energy_kcal": 77.8,
+        "protein_g": 1.1,
+        "carbohydrates_g": 20.0,
+        "sugar_g": 18.9,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "fiber_g": 0,
+        "sodium_mg": 600.0
+      },
+      "ingredients": [],
+      "flags": [
+        "High Sodium",
+        "High Sugar"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/1433/front_en.3.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901058001433"
     },
     {
       "id": "8901058009705",
       "slug": "maggi-veg-atta-noodles",
-      "name": "Maggi Veg Atta Noodles",
+      "name": "Maggi Veg atta noodles",
       "brand": "Maggi",
       "category": "Ready To Eat",
       "category_slug": "ready-to-eat",
@@ -649,31 +590,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/9705/front_en.16.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058009705",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 11,
-        "baseline_points": 19,
-        "modifying_points": 8,
-        "limiting_factors": [
-          "High sodium (800.0mg per 100g)",
-          "High saturated fat (8.6g per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 50,
-        "limiting_factor": "sodium",
-        "servings_per_package": 5.8,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 2.5,
-          "saturated_fat": 19.5,
-          "calories": 7.8
-        },
-        "explanation": "Limit to 50g to stay within sodium limits.",
-        "explanation_hindi": "50g tak hi khao, sodium ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058009705"
     },
     {
       "id": "8901058851328",
@@ -716,32 +633,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/885/1328/front_en.17.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058851328",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 17,
-        "baseline_points": 22,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "High sodium (1200.0mg per 100g)",
-          "High saturated fat (7.1g per 100g)",
-          "High calorie density (437.1kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 33,
-        "limiting_factor": "sodium",
-        "servings_per_package": 3.0,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 2.3,
-          "saturated_fat": 10.8,
-          "calories": 7.3
-        },
-        "explanation": "Limit to 33g to stay within sodium limits.",
-        "explanation_hindi": "33g tak hi khao, sodium ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058851328"
     },
     {
       "id": "8901058003017",
@@ -783,30 +675,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/3017/front_en.24.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058003017",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 5,
-        "baseline_points": 13,
-        "modifying_points": 8,
-        "limiting_factors": [
-          "High sodium (800.0mg per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 50,
-        "limiting_factor": "sodium",
-        "servings_per_package": 1.4,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 6.9,
-          "saturated_fat": 3.4,
-          "calories": 7.0
-        },
-        "explanation": "Limit to 50g to stay within sodium limits.",
-        "explanation_hindi": "50g tak hi khao, sodium ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058003017"
     },
     {
       "id": "8901058005851",
@@ -849,31 +718,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/5851/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058005851",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 11,
-        "baseline_points": 20,
-        "modifying_points": 9,
-        "limiting_factors": [
-          "High sodium (800.0mg per 100g)",
-          "High saturated fat (8.5g per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 50,
-        "limiting_factor": "sodium",
-        "servings_per_package": 2.0,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 2.0,
-          "saturated_fat": 19.3,
-          "calories": 8.0
-        },
-        "explanation": "Limit to 50g to stay within sodium limits.",
-        "explanation_hindi": "50g tak hi khao, sodium ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058005851"
     },
     {
       "id": "8901058000191",
@@ -916,36 +761,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/0191/front_en.4.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058000191",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 17,
-        "baseline_points": 22,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "High sodium (1000.0mg per 100g)",
-          "High saturated fat (8.1g per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 40,
-        "limiting_factor": "sodium",
-        "servings_per_package": 14.0,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 1.5,
-          "saturated_fat": 14.7,
-          "calories": 7.7
-        },
-        "explanation": "Limit to 40g to stay within sodium limits.",
-        "explanation_hindi": "40g tak hi khao, sodium ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058000191"
     },
     {
       "id": "6001068587209",
-      "slug": "maggi-2-minute-noodles-beef-1-xsingle",
-      "name": "Maggi 2 Minute Noodles Beef 1 X(single)",
+      "slug": "maggi-2-minute-noodles-beef-1-x-73g-single",
+      "name": "Maggi 2 Minute Noodles Beef 1 x 73G (Single)",
       "brand": "Maggi",
       "category": "Ready To Eat",
       "category_slug": "ready-to-eat",
@@ -966,36 +787,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/600/106/858/7209/front_fr.11.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/6001068587209",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 7,
-        "baseline_points": 16,
-        "modifying_points": 9,
-        "limiting_factors": [
-          "High sodium (800.0mg per 100g)",
-          "High calorie density (436.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 50,
-        "limiting_factor": "sodium",
-        "servings_per_package": 1.5,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 2.3,
-          "saturated_fat": 7.0,
-          "calories": 10.9
-        },
-        "explanation": "Limit to 50g to stay within sodium limits.",
-        "explanation_hindi": "50g tak hi khao, sodium ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/6001068587209"
     },
     {
       "id": "8901058002997",
       "slug": "maggi-pazzta-mashroom",
-      "name": "Maggi Pazzta Mashroom",
+      "name": "Maggi Pazzta mashroom",
       "brand": "Maggi",
       "category": "Ready To Eat",
       "category_slug": "ready-to-eat",
@@ -1030,35 +827,12 @@
       "flags": [],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/2997/front_en.41.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058002997",
-      "mizan_score": {
-        "stars": 5,
-        "grade": "A",
-        "inr_score": -2,
-        "baseline_points": 3,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "No major concerns"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 100,
-        "limiting_factor": "calories",
-        "servings_per_package": 1.0,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 0.0,
-          "saturated_fat": 0.0,
-          "calories": 15.8
-        },
-        "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
-        "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058002997"
     },
     {
       "id": "8901058901559",
       "slug": "nestlé-maggi-2-minute-noodles",
-      "name": "Nestlé Maggi 2-minute Noodles",
+      "name": "Nestlé Maggi 2-Minute Noodles",
       "brand": "Nestlé",
       "category": "Ready To Eat",
       "category_slug": "ready-to-eat",
@@ -1096,32 +870,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/890/1559/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058901559",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 21,
-        "baseline_points": 26,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "High sodium (1500.0mg per 100g)",
-          "High saturated fat (11.7g per 100g)",
-          "High calorie density (556.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 27,
-        "limiting_factor": "sodium",
-        "servings_per_package": 10.5,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 1.4,
-          "saturated_fat": 14.2,
-          "calories": 7.4
-        },
-        "explanation": "Very limited portion recommended. Just 27g due to high sodium.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 27g kyunki sodium zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058901559"
     },
     {
       "id": "8901058003000",
@@ -1161,35 +910,12 @@
       "flags": [],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/3000/front_en.13.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058003000",
-      "mizan_score": {
-        "stars": 5,
-        "grade": "A",
-        "inr_score": -1,
-        "baseline_points": 4,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "No major concerns"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 75,
-        "limiting_factor": "calories",
-        "servings_per_package": 1.0,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 0.0,
-          "saturated_fat": 0.0,
-          "calories": 12.0
-        },
-        "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
-        "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058003000"
     },
     {
       "id": "8901058003079",
       "slug": "maggi-cheesy-tomato",
-      "name": "Maggi Cheesy Tomato",
+      "name": "Maggi cheesy Tomato",
       "brand": "Maggi",
       "category": "Ready To Eat",
       "category_slug": "ready-to-eat",
@@ -1226,35 +952,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/3079/front_en.21.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058003079",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 7,
-        "baseline_points": 16,
-        "modifying_points": 9,
-        "limiting_factors": [
-          "High sodium (1200.0mg per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 33,
-        "limiting_factor": "sodium",
-        "servings_per_package": 3.0,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 5.1,
-          "saturated_fat": 2.1,
-          "calories": 5.6
-        },
-        "explanation": "Limit to 33g to stay within sodium limits.",
-        "explanation_hindi": "33g tak hi khao, sodium ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058003079"
     },
     {
       "id": "8901058003734",
       "slug": "maggi-e-korean-noodles",
-      "name": "Maggi E Korean Noodles",
+      "name": "Maggi e korean noodles",
       "brand": "Maggi",
       "category": "Ready To Eat",
       "category_slug": "ready-to-eat",
@@ -1275,30 +978,43 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/3734/front_en.23.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058003734",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 6,
-        "baseline_points": 11,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "High saturated fat (7.6g per 100g)"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8901058003734"
+    },
+    {
+      "id": "8901058008234",
+      "slug": "maggi-chicken-noodles-1",
+      "name": "Maggi Chicken Noodles",
+      "brand": "Maggi",
+      "category": "Ready To Eat",
+      "category_slug": "ready-to-eat",
+      "package_size_g": 71.0,
+      "nutrients": {
+        "energy_kcal": 402.0,
+        "protein_g": 0,
+        "carbohydrates_g": 66.1,
+        "sugar_g": 1.1,
+        "total_fat_g": 11.8,
+        "saturated_fat_g": 7.6,
+        "fiber_g": 0,
+        "sodium_mg": 400.0
       },
-      "safe_limit": {
-        "recommended_serving_g": 58,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 1.6,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 3.7,
-          "saturated_fat": 20.0,
-          "calories": 9.3
-        },
-        "explanation": "Limit to 58g to stay within saturated fat limits.",
-        "explanation_hindi": "58g tak hi khao, saturated fat ke liye."
-      }
+      "ingredients": [
+        "Noodles:\r\n\r\nRefined wheat flour (Maida)\r\nAlm oil\r\nIodized salt\r\nWheat gluten\r\nThickeners (508 & 412)\r\nAcidity regulators (501(i) & 500(i))\r\nHumectant (451(i))\r\nChicken Tastemaker:\r\n\r\nMixed spices (22%) (Dehydrated onion",
+        "Dried garlic",
+        "Red chilli powder",
+        "Black pepper powder",
+        "Capsicum extract",
+        "Turmeric powder",
+        "Nutmeg powder",
+        "Coriander extract",
+        "Cumin extract)\r\nSugar\r\nRefined wheat flour (Maida)\r\nIodized salt\r\nStarch\r\nChicken meat (5.7%)\r\nPalm oil\r\nThickener (508)\r\nChicken fat (2.3%)\r\nNatural Flavour\r\nFlavour enhancer (635)\r\nNature identical flavouring substance\r\nAcidity regulator (330)\r\nColour (150d)\r\nDehydrated kasuri methi leaves\r\nOnion\r\nWheat gluten\r\nDehydrated bread"
+      ],
+      "flags": [
+        "High Saturated Fat"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/8234/front_en.3.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901058008234"
     },
     {
       "id": "8901058005783",
@@ -1332,36 +1048,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/5783/front_en.18.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058005783",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 15,
-        "baseline_points": 20,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "High sodium (900.0mg per 100g)",
-          "High saturated fat (7.7g per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 44,
-        "limiting_factor": "sodium",
-        "servings_per_package": 2.2,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 3.0,
-          "saturated_fat": 15.6,
-          "calories": 8.8
-        },
-        "explanation": "Limit to 44g to stay within sodium limits.",
-        "explanation_hindi": "44g tak hi khao, sodium ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058005783"
     },
     {
       "id": "8901058903164",
       "slug": "nestle-kitkat",
-      "name": "Nestle Kitkat",
+      "name": "nestle KitKat",
       "brand": "nestle",
       "category": "Namkeen",
       "category_slug": "namkeen",
@@ -1398,37 +1090,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/890/3164/front_en.19.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058903164",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 20,
-        "baseline_points": 23,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (35.3g per 100g)",
-          "High saturated fat (24.9g per 100g)",
-          "High calorie density (436.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 18,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 2.2,
-        "daily_percentages": {
-          "sodium": 0.9,
-          "sugar": 12.5,
-          "saturated_fat": 20.0,
-          "calories": 3.9
-        },
-        "explanation": "Very limited portion recommended. Just 18g due to high saturated fat.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 18g kyunki saturated fat zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058903164"
     },
     {
       "id": "8901058005233",
       "slug": "kitkat-mini-chocolate-coated-wafer",
-      "name": "Kitkat Mini Chocolate Coated Wafer",
+      "name": "KitKat mini chocolate coated wafer",
       "brand": "KitKat",
       "category": "Biscuits",
       "category_slug": "biscuits",
@@ -1462,32 +1129,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/5233/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058005233",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 20,
-        "baseline_points": 23,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (35.1g per 100g)",
-          "High saturated fat (24.5g per 100g)",
-          "High calorie density (438.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 12,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 1.0,
-        "daily_percentages": {
-          "sodium": 0.6,
-          "sugar": 8.4,
-          "saturated_fat": 13.3,
-          "calories": 2.6
-        },
-        "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
-        "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058005233"
     },
     {
       "id": "89009802",
@@ -1525,37 +1167,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/000/008/900/9802/front_en.9.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/89009802",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 20,
-        "baseline_points": 23,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (33.0g per 100g)",
-          "High saturated fat (20.8g per 100g)",
-          "High calorie density (415.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 9,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 1.0,
-        "daily_percentages": {
-          "sodium": 0.4,
-          "sugar": 5.9,
-          "saturated_fat": 8.4,
-          "calories": 1.8
-        },
-        "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
-        "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/89009802"
     },
     {
       "id": "8901058891430",
       "slug": "nestle-nutrition-2-minutes-masala-noodles",
-      "name": "Nestle Nutrition 2-minutes Masala Noodles",
+      "name": "Nestle nutrition 2-minutes masala noodles",
       "brand": "Nestle nutrition",
       "category": "Ready To Eat",
       "category_slug": "ready-to-eat",
@@ -1592,30 +1209,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/889/1430/front_en.30.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058891430",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 9,
-        "baseline_points": 16,
-        "modifying_points": 7,
-        "limiting_factors": [
-          "High saturated fat (8.2g per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 54,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 5.2,
-        "daily_percentages": {
-          "sodium": 10.7,
-          "sugar": 1.9,
-          "saturated_fat": 20.0,
-          "calories": 10.4
-        },
-        "explanation": "Limit to 54g to stay within saturated fat limits.",
-        "explanation_hindi": "54g tak hi khao, saturated fat ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058891430"
     },
     {
       "id": "8901058005080",
@@ -1654,37 +1248,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/5080/front_en.7.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058005080",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 20,
-        "baseline_points": 23,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (32.2g per 100g)",
-          "High saturated fat (22.4g per 100g)",
-          "High calorie density (428.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 20,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 2.0,
-        "daily_percentages": {
-          "sodium": 1.0,
-          "sugar": 12.7,
-          "saturated_fat": 20.0,
-          "calories": 4.2
-        },
-        "explanation": "Very limited portion recommended. Just 20g due to high saturated fat.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 20g kyunki saturated fat zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058005080"
     },
     {
       "id": "8901058890709",
       "slug": "nestle-maggie-masala-chuppa-noodles",
-      "name": "Nestle Maggie Masala Chuppa Noodles",
+      "name": "nestle maggie masala chuppa noodles",
       "brand": "nestle",
       "category": "Ready To Eat",
       "category_slug": "ready-to-eat",
@@ -1722,36 +1291,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/889/0709/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058890709",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 16,
-        "baseline_points": 23,
-        "modifying_points": 7,
-        "limiting_factors": [
-          "High sodium (900.0mg per 100g)",
-          "High saturated fat (12.2g per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 36,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 2.0,
-        "daily_percentages": {
-          "sodium": 16.2,
-          "sugar": 2.4,
-          "saturated_fat": 20.0,
-          "calories": 7.0
-        },
-        "explanation": "Limit to 36g to stay within saturated fat limits.",
-        "explanation_hindi": "36g tak hi khao, saturated fat ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058890709"
     },
     {
       "id": "8901058903959",
-      "slug": "nestlé-nestle-milkmaidm",
-      "name": "Nestlé Nestle Milkmaidm",
+      "slug": "nestlé-nestle-milkmaid-380gm",
+      "name": "Nestlé Nestle Milkmaid 380gm",
       "brand": "Nestlé",
       "category": "Dairy",
       "category_slug": "dairy",
@@ -1774,35 +1319,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/890/3959/front_en.5.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058903959",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 11,
-        "baseline_points": 16,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "High sugar (58.4g per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 17,
-        "limiting_factor": "sugar",
-        "servings_per_package": 22.2,
-        "daily_percentages": {
-          "sodium": 0.9,
-          "sugar": 20.0,
-          "saturated_fat": 2.3,
-          "calories": 2.6
-        },
-        "explanation": "Very limited portion recommended. Just 17g due to high sugar.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 17g kyunki sugar zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058903959"
     },
     {
       "id": "8901058015171",
       "slug": "nestlé-nestle-kitkat",
-      "name": "Nestlé Nestle Kitkat",
+      "name": "Nestlé Nestle KitKat",
       "brand": "Nestlé",
       "category": "Namkeen",
       "category_slug": "namkeen",
@@ -1835,37 +1357,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/801/5171/front_en.12.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058015171",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 20,
-        "baseline_points": 23,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (35.1g per 100g)",
-          "High saturated fat (24.5g per 100g)",
-          "High calorie density (438.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 18,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 5.6,
-        "daily_percentages": {
-          "sodium": 0.9,
-          "sugar": 12.6,
-          "saturated_fat": 20.0,
-          "calories": 3.9
-        },
-        "explanation": "Very limited portion recommended. Just 18g due to high saturated fat.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 18g kyunki saturated fat zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058015171"
     },
     {
       "id": "89008294",
       "slug": "nestle-munch",
-      "name": "Nestle Munch",
+      "name": "nestle Munch",
       "brand": "nestle",
       "category": "Namkeen",
       "category_slug": "namkeen",
@@ -1887,32 +1384,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/000/008/900/8294/front_en.14.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/89008294",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 21,
-        "baseline_points": 26,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "High sugar (40.7g per 100g)",
-          "High saturated fat (22.2g per 100g)",
-          "High calorie density (481.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 10,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 1.0,
-        "daily_percentages": {
-          "sodium": 0.5,
-          "sugar": 8.5,
-          "saturated_fat": 10.5,
-          "calories": 2.5
-        },
-        "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
-        "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/89008294"
     },
     {
       "id": "8901058901832",
@@ -1955,37 +1427,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/890/1832/front_en.11.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058901832",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 12,
-        "baseline_points": 22,
-        "modifying_points": 10,
-        "limiting_factors": [
-          "High sodium (1100.0mg per 100g)",
-          "High saturated fat (7.6g per 100g)",
-          "High calorie density (458.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 36,
-        "limiting_factor": "sodium",
-        "servings_per_package": 2.0,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 2.0,
-          "saturated_fat": 12.6,
-          "calories": 8.3
-        },
-        "explanation": "Limit to 36g to stay within sodium limits.",
-        "explanation_hindi": "36g tak hi khao, sodium ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058901832"
     },
     {
       "id": "8901058904741",
       "slug": "kitkat-nestle-kit-kat-ind",
-      "name": "Kitkat Nestle Kit Kat (ind)",
+      "name": "KitKat Nestle kit Kat (Ind)",
       "brand": "KitKat",
       "category": "Biscuits",
       "category_slug": "biscuits",
@@ -2007,32 +1454,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/890/4741/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058904741",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 19,
-        "baseline_points": 23,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High sugar (37.8g per 100g)",
-          "High saturated fat (23.0g per 100g)",
-          "High calorie density (448.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 19,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 5.2,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 14.5,
-          "saturated_fat": 20.0,
-          "calories": 4.3
-        },
-        "explanation": "Very limited portion recommended. Just 19g due to high saturated fat.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 19g kyunki saturated fat zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901058904741"
     },
     {
       "id": "8901058903966",
@@ -2075,37 +1497,55 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/890/3966/front_en.6.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058903966",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 24,
-        "baseline_points": 26,
-        "modifying_points": 2,
-        "limiting_factors": [
-          "High sugar (49.2g per 100g)",
-          "High saturated fat (13.6g per 100g)",
-          "High calorie density (426.0kcal per 100g)"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8901058903966"
+    },
+    {
+      "id": "8901058000702",
+      "slug": "nestle-munch-1",
+      "name": "Nestle Munch",
+      "brand": "Nestle",
+      "category": "Namkeen",
+      "category_slug": "namkeen",
+      "package_size_g": 100.0,
+      "nutrients": {
+        "energy_kcal": 435.0,
+        "protein_g": 6.0,
+        "carbohydrates_g": 50.0,
+        "sugar_g": 32.9,
+        "total_fat_g": 23.4,
+        "saturated_fat_g": 23.1,
+        "fiber_g": 0,
+        "sodium_mg": 100.0
       },
-      "safe_limit": {
-        "recommended_serving_g": 20,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.9,
-        "daily_percentages": {
-          "sodium": 1.0,
-          "sugar": 20.0,
-          "saturated_fat": 12.6,
-          "calories": 4.3
-        },
-        "explanation": "Very limited portion recommended. Just 20g due to high sugar.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 20g kyunki sugar zyada hai."
-      }
+      "ingredients": [
+        "Sugar",
+        "Refined Wheat flour (Maida)",
+        "Hydrogenated vegetable fat",
+        "Fractionated vegetable fat",
+        "Milk solids",
+        "Cocoa solids (3.9%)",
+        "Emulsifier (Soya lecithin)",
+        "Raising agent (E 500(ii))",
+        "Yeast",
+        "iodised salt",
+        "Flour treatment agent (E 516)",
+        "Artificial (Vanilla)",
+        "Nature identical flavouring substances",
+        "Contains _Wheat_",
+        "_Sesame_"
+      ],
+      "flags": [
+        "High Sugar",
+        "High Saturated Fat"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/0702/front_en.20.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901058000702"
     },
     {
       "id": "8901058005905",
       "slug": "nestle-kitkat-dark-chocolate-coated-wafer",
-      "name": "Nestle Kitkat Dark Chocolate Coated Wafer",
+      "name": "Nestle KitKat Dark Chocolate Coated Wafer",
       "brand": "Nestle",
       "category": "Biscuits",
       "category_slug": "biscuits",
@@ -2143,36 +1583,52 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/800/5905/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058005905",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 16,
-        "baseline_points": 22,
-        "modifying_points": 6,
-        "limiting_factors": [
-          "High sugar (37.7g per 100g)",
-          "High saturated fat (22.2g per 100g)"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8901058005905"
+    },
+    {
+      "id": "0941458000702",
+      "slug": "nestle-munch-2",
+      "name": "Nestle Munch",
+      "brand": "Nestle",
+      "category": "Biscuits",
+      "category_slug": "biscuits",
+      "package_size_g": 160.2,
+      "nutrients": {
+        "energy_kcal": 435.0,
+        "protein_g": 6.0,
+        "carbohydrates_g": 50.0,
+        "sugar_g": 32.9,
+        "total_fat_g": 23.4,
+        "saturated_fat_g": 23.1,
+        "fiber_g": 0,
+        "sodium_mg": 0.0
       },
-      "safe_limit": {
-        "recommended_serving_g": 20,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 7.6,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 14.9,
-          "saturated_fat": 20.0,
-          "calories": 3.9
-        },
-        "explanation": "Very limited portion recommended. Just 20g due to high saturated fat.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 20g kyunki saturated fat zyada hai."
-      }
+      "ingredients": [
+        "Confed Wafer Sugar",
+        "Refined Wheat flour (Maida)",
+        "Hydrogenated vegetable fat",
+        "Fractionated vegetable fat",
+        "Milk solids",
+        "Cocoa solids (3.9%)",
+        "Emulsifier (Soya lecithin)",
+        "Raising agent (500) Yeast",
+        "lodised salt",
+        "Flour treatment agent (516) and Artificial (Vanilla) flavouring substance. Contains Wheat",
+        "Sesame",
+        "Milk and Soy. May Contains Nut."
+      ],
+      "flags": [
+        "High Sugar",
+        "High Saturated Fat"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/094/145/800/0702/front_en.3.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/0941458000702"
     },
     {
       "id": "8901058012897",
       "slug": "nestle-munch-crunchilious-cereal",
-      "name": "Nestle Munch Crunchilious Cereal",
+      "name": "Nestle munch crunchilious cereal",
       "brand": "Nestle",
       "category": "Drinks",
       "category_slug": "drinks",
@@ -2209,35 +1665,39 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/105/801/2897/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901058012897",
-      "mizan_score": {
-        "stars": 4,
-        "grade": "B",
-        "inr_score": 1,
-        "baseline_points": 9,
-        "modifying_points": 8,
-        "limiting_factors": [
-          "High sugar (22.0g per 100g)"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8901058012897"
+    },
+    {
+      "id": "8901058869002",
+      "slug": "nestle-munch-3",
+      "name": "Nestle Munch",
+      "brand": "Nestle",
+      "category": "Namkeen",
+      "category_slug": "namkeen",
+      "package_size_g": 12.5,
+      "nutrients": {
+        "energy_kcal": 438.0,
+        "protein_g": 5.7,
+        "carbohydrates_g": 54.4,
+        "sugar_g": 33.4,
+        "total_fat_g": 22.8,
+        "saturated_fat_g": 21.6,
+        "fiber_g": 2.8,
+        "sodium_mg": 100.0
       },
-      "safe_limit": {
-        "recommended_serving_g": 45,
-        "limiting_factor": "sugar",
-        "servings_per_package": 2.2,
-        "daily_percentages": {
-          "sodium": 2.3,
-          "sugar": 20.0,
-          "saturated_fat": 3.3,
-          "calories": 6.3
-        },
-        "explanation": "Limit to 45g to stay within sugar limits.",
-        "explanation_hindi": "45g tak hi khao, sugar ke liye."
-      }
+      "ingredients": [],
+      "flags": [
+        "High Sugar",
+        "High Saturated Fat"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/105/886/9002/front_en.18.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901058869002"
     },
     {
       "id": "8901719125478",
-      "slug": "parle-g-gold",
-      "name": "Parle G Gold",
+      "slug": "parle-g-gold-75g",
+      "name": "Parle G gold 75g",
       "brand": "Parle",
       "category": "Biscuits",
       "category_slug": "biscuits",
@@ -2272,84 +1732,86 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/171/912/5478/front_en.7.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901719125478",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 14,
-        "baseline_points": 18,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High sugar (25.5g per 100g)",
-          "High saturated fat (6.0g per 100g)",
-          "High calorie density (454.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 39,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.3,
-        "daily_percentages": {
-          "sodium": 5.9,
-          "sugar": 20.0,
-          "saturated_fat": 10.7,
-          "calories": 8.9
-        },
-        "explanation": "Limit to 39g to stay within sugar limits.",
-        "explanation_hindi": "39g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901719125478"
     },
     {
-      "id": "8901719101038",
+      "id": "8901719128462",
       "slug": "parle-g",
       "name": "Parle G",
       "brand": "Parle",
       "category": "Biscuits",
       "category_slug": "biscuits",
-      "package_size_g": 100,
+      "package_size_g": 100.0,
       "nutrients": {
-        "energy_kcal": 461.0,
-        "protein_g": 7.1,
-        "carbohydrates_g": 78.0,
-        "sugar_g": 24.8,
-        "total_fat_g": 12.4,
-        "saturated_fat_g": 6.2,
-        "fiber_g": 1.8,
+        "energy_kcal": 454.0,
+        "protein_g": 6.9,
+        "carbohydrates_g": 77.3,
+        "sugar_g": 25.5,
+        "total_fat_g": 13.0,
+        "saturated_fat_g": 6.0,
+        "fiber_g": 0,
         "sodium_mg": 300.0
       },
-      "ingredients": [],
+      "ingredients": [
+        "REFINED WHEAT FLOUR (MAIDA ) - 68%",
+        "SUGAR",
+        "REFINED PALM OIL",
+        "INVERT SUGAR SYRUP# [SUGAR",
+        "CITRIC ACID]",
+        "IODISED SALT",
+        "RAISING AGENTS [503 (ii)",
+        "500 (ii)]",
+        "MILK SOLIDS",
+        "FLOUR TREATMENT AGENT [1101 (i)] AND EMULSIFIER OF VEGETABLE ORIGIN [472e]",
+        "CONTAINS ADDED FLAVOUR ( ARTIFICIAL FLAVOURING SUBSTANCES - VANILLA) (D-GLUCOSE",
+        "LEVULOSE)"
+      ],
       "flags": [
         "High Sugar",
         "High Saturated Fat"
       ],
-      "image_url": "https://images.openfoodfacts.org/images/products/890/171/910/1038/front_en.20.400.jpg",
+      "image_url": "https://images.openfoodfacts.org/images/products/890/171/912/8462/front_en.10.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901719101038",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 14,
-        "baseline_points": 19,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "High sugar (24.8g per 100g)",
-          "High saturated fat (6.2g per 100g)",
-          "High calorie density (461.0kcal per 100g)"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8901719128462"
+    },
+    {
+      "id": "8901719105913",
+      "slug": "parle-hide-seek-120g",
+      "name": "PARLE hide & seek 120g",
+      "brand": "PARLE",
+      "category": "Biscuits",
+      "category_slug": "biscuits",
+      "package_size_g": 120.0,
+      "nutrients": {
+        "energy_kcal": 479.0,
+        "protein_g": 5.9,
+        "carbohydrates_g": 73.4,
+        "sugar_g": 32.2,
+        "total_fat_g": 18.0,
+        "saturated_fat_g": 9.4,
+        "fiber_g": 0,
+        "sodium_mg": 0
       },
-      "safe_limit": {
-        "recommended_serving_g": 40,
-        "limiting_factor": "sugar",
-        "servings_per_package": 2.5,
-        "daily_percentages": {
-          "sodium": 6.0,
-          "sugar": 20.0,
-          "saturated_fat": 11.4,
-          "calories": 9.3
-        },
-        "explanation": "Limit to 40g to stay within sugar limits.",
-        "explanation_hindi": "40g tak hi khao, sugar ke liye."
-      }
+      "ingredients": [
+        "Refined wheat flour (maida)",
+        "chocolate 23% (sugar",
+        "cocoa solids",
+        "cocoa butter",
+        "dextrose)",
+        "sugar",
+        "refined palm oil",
+        "invert sugar syrup",
+        "raising agent",
+        "cocoa solids",
+        "iodised salts"
+      ],
+      "flags": [
+        "High Sugar",
+        "High Saturated Fat"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/171/910/5913/front_en.22.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901719105913"
     },
     {
       "id": "8901719117183",
@@ -2376,32 +1838,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/171/911/7183/front_en.17.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901719117183",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 19,
-        "baseline_points": 22,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (32.5g per 100g)",
-          "High saturated fat (9.4g per 100g)",
-          "High calorie density (470.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 31,
-        "limiting_factor": "sugar",
-        "servings_per_package": 3.2,
-        "daily_percentages": {
-          "sodium": 1.5,
-          "sugar": 20.0,
-          "saturated_fat": 13.1,
-          "calories": 7.2
-        },
-        "explanation": "Limit to 31g to stay within sugar limits.",
-        "explanation_hindi": "31g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901719117183"
     },
     {
       "id": "8901719120800",
@@ -2440,30 +1877,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/171/912/0800/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901719120800",
-      "mizan_score": {
-        "stars": 4,
-        "grade": "B",
-        "inr_score": 2,
-        "baseline_points": 6,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High sugar (25.5g per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 39,
-        "limiting_factor": "sugar",
-        "servings_per_package": 2.5,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 20.0,
-          "saturated_fat": 0.0,
-          "calories": 2.1
-        },
-        "explanation": "Limit to 39g to stay within sugar limits.",
-        "explanation_hindi": "39g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901719120800"
     },
     {
       "id": "8902579103057",
@@ -2499,35 +1913,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/257/910/3057/front_en.34.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8902579103057",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 3,
-        "baseline_points": 3,
-        "modifying_points": 0,
-        "limiting_factors": [
-          "High sugar (15.5g per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 65,
-        "limiting_factor": "sugar",
-        "servings_per_package": 4.7,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 20.0,
-          "saturated_fat": 0.0,
-          "calories": 2.1
-        },
-        "explanation": "Limit to 65g to stay within sugar limits.",
-        "explanation_hindi": "65g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8902579103057"
     },
     {
       "id": "8902579002039",
       "slug": "parle-agro-appy-fizz-appy-fizz",
-      "name": "Parle Agro Appy Fizz Appy Fizz",
+      "name": "parle agro appy fizz appy fizz",
       "brand": "parle agro appy fizz",
       "category": "Drinks",
       "category_slug": "drinks",
@@ -2546,30 +1937,7 @@
       "flags": [],
       "image_url": "https://images.openfoodfacts.org/images/products/890/257/900/2039/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8902579002039",
-      "mizan_score": {
-        "stars": 4,
-        "grade": "B",
-        "inr_score": 2,
-        "baseline_points": 2,
-        "modifying_points": 0,
-        "limiting_factors": [
-          "No major concerns"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 78,
-        "limiting_factor": "sugar",
-        "servings_per_package": 3.2,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 20.0,
-          "saturated_fat": 0.0,
-          "calories": 2.0
-        },
-        "explanation": "Limit to 78g to stay within sugar limits.",
-        "explanation_hindi": "78g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8902579002039"
     },
     {
       "id": "8901719121432",
@@ -2595,31 +1963,61 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/171/912/1432/front_en.14.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901719121432",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 12,
-        "baseline_points": 16,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High saturated fat (9.7g per 100g)",
-          "High calorie density (492.0kcal per 100g)"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8901719121432"
+    },
+    {
+      "id": "8901719101038",
+      "slug": "parle-g-1",
+      "name": "Parle G",
+      "brand": "Parle",
+      "category": "Biscuits",
+      "category_slug": "biscuits",
+      "package_size_g": 100,
+      "nutrients": {
+        "energy_kcal": 461.0,
+        "protein_g": 7.1,
+        "carbohydrates_g": 78.0,
+        "sugar_g": 24.8,
+        "total_fat_g": 12.4,
+        "saturated_fat_g": 6.2,
+        "fiber_g": 1.8,
+        "sodium_mg": 300.0
       },
-      "safe_limit": {
-        "recommended_serving_g": 45,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 2.2,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 7.6,
-          "saturated_fat": 20.0,
-          "calories": 11.2
-        },
-        "explanation": "Limit to 45g to stay within saturated fat limits.",
-        "explanation_hindi": "45g tak hi khao, saturated fat ke liye."
-      }
+      "ingredients": [],
+      "flags": [
+        "High Sugar",
+        "High Saturated Fat"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/171/910/1038/front_en.20.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901719101038"
+    },
+    {
+      "id": "8901719124143",
+      "slug": "parle-g-gold-75-g",
+      "name": "Parle G gold 75 g",
+      "brand": "Parle",
+      "category": "Biscuits",
+      "category_slug": "biscuits",
+      "package_size_g": 100,
+      "nutrients": {
+        "energy_kcal": 462.0,
+        "protein_g": 6.7,
+        "carbohydrates_g": 75.9,
+        "sugar_g": 27.7,
+        "total_fat_g": 14.6,
+        "saturated_fat_g": 6.8,
+        "fiber_g": 0,
+        "sodium_mg": 300.0
+      },
+      "ingredients": [],
+      "flags": [
+        "High Sugar",
+        "High Saturated Fat"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/171/912/4143/front_en.8.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901719124143"
     },
     {
       "id": "8901719131141",
@@ -2646,37 +2044,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/171/913/1141/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901719131141",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 17,
-        "baseline_points": 21,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High sugar (23.0g per 100g)",
-          "High saturated fat (9.5g per 100g)",
-          "High calorie density (495.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 35,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.0,
-        "daily_percentages": {
-          "sodium": 1.8,
-          "sugar": 16.1,
-          "saturated_fat": 15.1,
-          "calories": 8.7
-        },
-        "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
-        "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901719131141"
     },
     {
       "id": "8901719129988",
       "slug": "parle-happy-happy-parl",
-      "name": "Parle Happy Happy - Parl",
+      "name": "Parle Happy happy - Parl",
       "brand": "Parle",
       "category": "Namkeen",
       "category_slug": "namkeen",
@@ -2703,37 +2076,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/171/912/9988/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901719129988",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 19,
-        "baseline_points": 22,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (30.4g per 100g)",
-          "High saturated fat (10.6g per 100g)",
-          "High calorie density (489.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 32,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.0,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 19.2,
-          "saturated_fat": 15.2,
-          "calories": 7.7
-        },
-        "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
-        "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901719129988"
     },
     {
       "id": "8902579002442",
       "slug": "parle-appy-fizz",
-      "name": "Parle Appy Fizz",
+      "name": "Parle Appy fizz",
       "brand": "Parle",
       "category": "Drinks",
       "category_slug": "drinks",
@@ -2763,35 +2111,12 @@
       "flags": [],
       "image_url": "https://images.openfoodfacts.org/images/products/890/257/900/2442/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8902579002442",
-      "mizan_score": {
-        "stars": 4,
-        "grade": "B",
-        "inr_score": 2,
-        "baseline_points": 2,
-        "modifying_points": 0,
-        "limiting_factors": [
-          "No major concerns"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 78,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.3,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 20.0,
-          "saturated_fat": 0.0,
-          "calories": 2.0
-        },
-        "explanation": "Limit to 78g to stay within sugar limits.",
-        "explanation_hindi": "78g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8902579002442"
     },
     {
       "id": "8902579103170",
       "slug": "parle-agro-frooti-mango-drink",
-      "name": "Parle Agro Frooti Mango Drink",
+      "name": "Parle Agro FROOTI Mango Drink",
       "brand": "Parle Agro",
       "category": "Drinks",
       "category_slug": "drinks",
@@ -2820,35 +2145,39 @@
       "flags": [],
       "image_url": "https://images.openfoodfacts.org/images/products/890/257/910/3170/front_en.7.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8902579103170",
-      "mizan_score": {
-        "stars": 4,
-        "grade": "B",
-        "inr_score": 2,
-        "baseline_points": 2,
-        "modifying_points": 0,
-        "limiting_factors": [
-          "No major concerns"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8902579103170"
+    },
+    {
+      "id": "8901719117220",
+      "slug": "parle-hide-seek-200g30",
+      "name": "Parle Hide &seek 200g(30)",
+      "brand": "Parle",
+      "category": "Biscuits",
+      "category_slug": "biscuits",
+      "package_size_g": 100,
+      "nutrients": {
+        "energy_kcal": 480.0,
+        "protein_g": 5.8,
+        "carbohydrates_g": 73.1,
+        "sugar_g": 32.6,
+        "total_fat_g": 18.3,
+        "saturated_fat_g": 11.4,
+        "fiber_g": 0,
+        "sodium_mg": 0
       },
-      "safe_limit": {
-        "recommended_serving_g": 75,
-        "limiting_factor": "sugar",
-        "servings_per_package": 8.0,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 20.0,
-          "saturated_fat": 0.0,
-          "calories": 2.4
-        },
-        "explanation": "Limit to 75g to stay within sugar limits.",
-        "explanation_hindi": "75g tak hi khao, sugar ke liye."
-      }
+      "ingredients": [],
+      "flags": [
+        "High Sugar",
+        "High Saturated Fat"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/171/911/7220/front_en.8.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901719117220"
     },
     {
       "id": "8901719130144",
-      "slug": "parle-hideseek",
-      "name": "Parle Hide&seek",
+      "slug": "parle-hideseek400g",
+      "name": "Parle hide&seek400g",
       "brand": "Parle",
       "category": "Biscuits",
       "category_slug": "biscuits",
@@ -2886,37 +2215,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/171/913/0144/front_en.22.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901719130144",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 20,
-        "baseline_points": 23,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (32.6g per 100g)",
-          "High saturated fat (11.4g per 100g)",
-          "High calorie density (480.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 31,
-        "limiting_factor": "sugar",
-        "servings_per_package": 3.3,
-        "daily_percentages": {
-          "sodium": 1.5,
-          "sugar": 20.0,
-          "saturated_fat": 15.9,
-          "calories": 7.4
-        },
-        "explanation": "Limit to 31g to stay within sugar limits.",
-        "explanation_hindi": "31g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901719130144"
     },
     {
       "id": "8901719122217",
       "slug": "parle-crack-jack",
-      "name": "Parle Crack Jack",
+      "name": "Parle Crack jack",
       "brand": "Parle",
       "category": "Namkeen",
       "category_slug": "namkeen",
@@ -2935,35 +2239,12 @@
       "flags": [],
       "image_url": "https://images.openfoodfacts.org/images/products/890/171/912/2217/front_en.10.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901719122217",
-      "mizan_score": {
-        "stars": 4,
-        "grade": "B",
-        "inr_score": 2,
-        "baseline_points": 6,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High calorie density (489.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 82,
-        "limiting_factor": "calories",
-        "servings_per_package": 1.2,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 0.0,
-          "saturated_fat": 0.0,
-          "calories": 20.0
-        },
-        "explanation": "Limit to 82g to stay within calories limits.",
-        "explanation_hindi": "82g tak hi khao, calories ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901719122217"
     },
     {
       "id": "8902579002497",
       "slug": "smoodh-choclate-flavored-milk",
-      "name": "Smoodh Choclate Flavored Milk",
+      "name": "SMOODH CHOCLATE FLAVORED MILK",
       "brand": "SMOODH",
       "category": "Drinks",
       "category_slug": "drinks",
@@ -2996,30 +2277,7 @@
       "flags": [],
       "image_url": "https://images.openfoodfacts.org/images/products/890/257/900/2497/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8902579002497",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 5,
-        "baseline_points": 6,
-        "modifying_points": 1,
-        "limiting_factors": [
-          "No major concerns"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 73,
-        "limiting_factor": "sugar",
-        "servings_per_package": 2.1,
-        "daily_percentages": {
-          "sodium": 3.6,
-          "sugar": 20.0,
-          "saturated_fat": 4.0,
-          "calories": 3.1
-        },
-        "explanation": "Limit to 73g to stay within sugar limits.",
-        "explanation_hindi": "73g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8902579002497"
     },
     {
       "id": "8901719100369",
@@ -3061,30 +2319,77 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/171/910/0369/front_en.18.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901719100369",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 11,
-        "baseline_points": 12,
-        "modifying_points": 1,
-        "limiting_factors": [
-          "High sugar (29.6g per 100g)"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8901719100369"
+    },
+    {
+      "id": "8902579000370",
+      "slug": "parle-agro-frooti-mango-drink-1",
+      "name": "parle Agro Frooti mango drink",
+      "brand": "parle Agro",
+      "category": "Drinks",
+      "category_slug": "drinks",
+      "package_size_g": 150.0,
+      "nutrients": {
+        "energy_kcal": 65.0,
+        "protein_g": 0,
+        "carbohydrates_g": 16.2,
+        "sugar_g": 15.5,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "fiber_g": 0,
+        "sodium_mg": 0.0
       },
-      "safe_limit": {
-        "recommended_serving_g": 33,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.0,
-        "daily_percentages": {
-          "sodium": 3.3,
-          "sugar": 19.5,
-          "saturated_fat": 3.8,
-          "calories": 2.7
-        },
-        "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
-        "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
-      }
+      "ingredients": [
+        "WATER",
+        "MANGO PULP (19.5%)",
+        "SUGAR",
+        "ACIDITY REGULATORS [(INS330",
+        "INS331(iii)]",
+        "ANTIOXIDANT (INS300)",
+        "MATURE-IDENTICAL FLAVOURING SUBSTANCES (MANGO) AND SYNTHETIC FOOD COLOUR (INS110)."
+      ],
+      "flags": [
+        "High Sugar"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/257/900/0370/front_en.19.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8902579000370"
+    },
+    {
+      "id": "8901719121746",
+      "slug": "parle-g-2",
+      "name": "PARLE G",
+      "brand": "PARLE",
+      "category": "Biscuits",
+      "category_slug": "biscuits",
+      "package_size_g": 55.0,
+      "nutrients": {
+        "energy_kcal": 454.0,
+        "protein_g": 6.9,
+        "carbohydrates_g": 77.3,
+        "sugar_g": 25.5,
+        "total_fat_g": 13.0,
+        "saturated_fat_g": 6.0,
+        "fiber_g": 0,
+        "sodium_mg": 300.0
+      },
+      "ingredients": [
+        "Refined wheat flour - 68%",
+        "Sugar",
+        "refined palm oil",
+        "invert sugar syrup",
+        "iodised salt",
+        "raising agents",
+        "milk solids",
+        "vanilla"
+      ],
+      "flags": [
+        "High Sugar",
+        "High Saturated Fat"
+      ],
+      "image_url": "",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901719121746"
     },
     {
       "id": "8901719117206",
@@ -3127,37 +2432,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/171/911/7206/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901719117206",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 19,
-        "baseline_points": 22,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (32.0g per 100g)",
-          "High saturated fat (9.2g per 100g)",
-          "High calorie density (478.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 31,
-        "limiting_factor": "sugar",
-        "servings_per_package": 3.2,
-        "daily_percentages": {
-          "sodium": 1.6,
-          "sugar": 20.0,
-          "saturated_fat": 13.1,
-          "calories": 7.5
-        },
-        "explanation": "Limit to 31g to stay within sugar limits.",
-        "explanation_hindi": "31g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901719117206"
     },
     {
       "id": "8901063139374",
       "slug": "britannia-bourbon",
-      "name": "Britannia Bourbon",
+      "name": "Britannia BOURBON",
       "brand": "Britannia",
       "category": "Biscuits",
       "category_slug": "biscuits",
@@ -3189,37 +2469,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/313/9374/front_en.15.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063139374",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 22,
-        "baseline_points": 25,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (37.0g per 100g)",
-          "High saturated fat (10.1g per 100g)",
-          "High calorie density (493.5kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 27,
-        "limiting_factor": "sugar",
-        "servings_per_package": 2.2,
-        "daily_percentages": {
-          "sodium": 1.4,
-          "sugar": 20.0,
-          "saturated_fat": 12.4,
-          "calories": 6.7
-        },
-        "explanation": "Very limited portion recommended. Just 27g due to high sugar.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 27g kyunki sugar zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063139374"
     },
     {
       "id": "8901063162426",
       "slug": "britannia-marie-gold",
-      "name": "Britannia Marie Gold",
+      "name": "Britannia Marie gold",
       "brand": "Britannia",
       "category": "Biscuits",
       "category_slug": "biscuits",
@@ -3256,32 +2511,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/316/2426/front_en.15.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063162426",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 12,
-        "baseline_points": 17,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "High sugar (21.9g per 100g)",
-          "High saturated fat (5.2g per 100g)",
-          "High calorie density (445.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 46,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.6,
-        "daily_percentages": {
-          "sodium": 6.8,
-          "sugar": 20.0,
-          "saturated_fat": 10.8,
-          "calories": 10.2
-        },
-        "explanation": "Limit to 46g to stay within sugar limits.",
-        "explanation_hindi": "46g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063162426"
     },
     {
       "id": "8901063142015",
@@ -3323,31 +2553,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/314/2015/front_en.30.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063142015",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 8,
-        "baseline_points": 18,
-        "modifying_points": 10,
-        "limiting_factors": [
-          "High saturated fat (10.4g per 100g)",
-          "High calorie density (481.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 42,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 2.4,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 11.1,
-          "saturated_fat": 20.0,
-          "calories": 10.2
-        },
-        "explanation": "Limit to 42g to stay within saturated fat limits.",
-        "explanation_hindi": "42g tak hi khao, saturated fat ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063142015"
     },
     {
       "id": "8901063092617",
@@ -3390,32 +2596,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/309/2617/front_en.17.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063092617",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 17,
-        "baseline_points": 21,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High sugar (22.0g per 100g)",
-          "High saturated fat (11.0g per 100g)",
-          "High calorie density (494.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 40,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 1.7,
-        "daily_percentages": {
-          "sodium": 2.0,
-          "sugar": 17.6,
-          "saturated_fat": 20.0,
-          "calories": 9.9
-        },
-        "explanation": "Limit to 40g to stay within saturated fat limits.",
-        "explanation_hindi": "40g tak hi khao, saturated fat ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063092617"
     },
     {
       "id": "8901063019027",
@@ -3451,37 +2632,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/301/9027/front_en.6.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063019027",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 19,
-        "baseline_points": 23,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High sugar (24.4g per 100g)",
-          "High saturated fat (9.4g per 100g)",
-          "High calorie density (486.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 41,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.8,
-        "daily_percentages": {
-          "sodium": 6.1,
-          "sugar": 20.0,
-          "saturated_fat": 17.5,
-          "calories": 10.0
-        },
-        "explanation": "Limit to 41g to stay within sugar limits.",
-        "explanation_hindi": "41g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063019027"
     },
     {
       "id": "8901063139213",
-      "slug": "britannia-brit-bourbonsys",
-      "name": "Britannia Brit Bourbon(sys)",
+      "slug": "britannia-brit-bourbon-150g-sys",
+      "name": "Britannia Brit bourbon 150g (sys)",
       "brand": "Britannia",
       "category": "Biscuits",
       "category_slug": "biscuits",
@@ -3508,37 +2664,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/313/9213/front_en.24.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063139213",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 22,
-        "baseline_points": 25,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (37.0g per 100g)",
-          "High saturated fat (10.1g per 100g)",
-          "High calorie density (493.5kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 27,
-        "limiting_factor": "sugar",
-        "servings_per_package": 3.7,
-        "daily_percentages": {
-          "sodium": 1.4,
-          "sugar": 20.0,
-          "saturated_fat": 12.4,
-          "calories": 6.7
-        },
-        "explanation": "Very limited portion recommended. Just 27g due to high sugar.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 27g kyunki sugar zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063139213"
     },
     {
       "id": "8901063162327",
       "slug": "britannia-br-marie-gold-10",
-      "name": "Britannia Br Marie Gold 10",
+      "name": "Britannia Br Marie gold 10",
       "brand": "Britannia",
       "category": "Namkeen",
       "category_slug": "namkeen",
@@ -3562,32 +2693,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/316/2327/front_en.6.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063162327",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 9,
-        "baseline_points": 14,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "High sugar (21.9g per 100g)",
-          "High saturated fat (5.2g per 100g)",
-          "High calorie density (445.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 46,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.7,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 20.0,
-          "saturated_fat": 10.8,
-          "calories": 10.2
-        },
-        "explanation": "Limit to 46g to stay within sugar limits.",
-        "explanation_hindi": "46g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063162327"
     },
     {
       "id": "8901063142305",
@@ -3615,32 +2721,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/314/2305/front_fr.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063142305",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 14,
-        "baseline_points": 24,
-        "modifying_points": 10,
-        "limiting_factors": [
-          "High sodium (500.0mg per 100g)",
-          "High saturated fat (10.2g per 100g)",
-          "High calorie density (485.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 43,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 23.2,
-        "daily_percentages": {
-          "sodium": 10.8,
-          "sugar": 12.4,
-          "saturated_fat": 20.0,
-          "calories": 10.5
-        },
-        "explanation": "Limit to 43g to stay within saturated fat limits.",
-        "explanation_hindi": "43g tak hi khao, saturated fat ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063142305"
     },
     {
       "id": "8901063012530",
@@ -3678,32 +2759,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/301/2530/front_en.6.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063012530",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 15,
-        "baseline_points": 19,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High sugar (26.4g per 100g)",
-          "High saturated fat (6.5g per 100g)",
-          "High calorie density (459.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 38,
-        "limiting_factor": "sugar",
-        "servings_per_package": 2.6,
-        "daily_percentages": {
-          "sodium": 5.7,
-          "sugar": 20.0,
-          "saturated_fat": 11.2,
-          "calories": 8.7
-        },
-        "explanation": "Limit to 38g to stay within sugar limits.",
-        "explanation_hindi": "38g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063012530"
     },
     {
       "id": "8901063029279",
@@ -3746,32 +2802,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/302/9279/front_en.20.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063029279",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 21,
-        "baseline_points": 24,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (33.5g per 100g)",
-          "High saturated fat (9.5g per 100g)",
-          "High calorie density (483.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 30,
-        "limiting_factor": "sugar",
-        "servings_per_package": 4.6,
-        "daily_percentages": {
-          "sodium": 3.0,
-          "sugar": 20.0,
-          "saturated_fat": 12.9,
-          "calories": 7.2
-        },
-        "explanation": "Very limited portion recommended. Just 30g due to high sugar.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 30g kyunki sugar zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063029279"
     },
     {
       "id": "8901063093522",
@@ -3811,37 +2842,53 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/309/3522/front_en.28.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063093522",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 16,
-        "baseline_points": 20,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High sugar (22.0g per 100g)",
-          "High saturated fat (11.0g per 100g)",
-          "High calorie density (512.0kcal per 100g)"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8901063093522"
+    },
+    {
+      "id": "8901063023901",
+      "slug": "britannia-marie-gold-1",
+      "name": "Britannia Marie Gold",
+      "brand": "Britannia",
+      "category": "Biscuits",
+      "category_slug": "biscuits",
+      "package_size_g": 100,
+      "nutrients": {
+        "energy_kcal": 445.0,
+        "protein_g": 8.4,
+        "carbohydrates_g": 78.9,
+        "sugar_g": 21.9,
+        "total_fat_g": 10.7,
+        "saturated_fat_g": 5.2,
+        "fiber_g": 0,
+        "sodium_mg": 300.0
       },
-      "safe_limit": {
-        "recommended_serving_g": 40,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 1.3,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 17.6,
-          "saturated_fat": 20.0,
-          "calories": 10.2
-        },
-        "explanation": "Limit to 40g to stay within saturated fat limits.",
-        "explanation_hindi": "40g tak hi khao, saturated fat ke liye."
-      }
+      "ingredients": [
+        "REFINED WHEAT FLOUR (MAIDA)(73%)",
+        "SUGAR",
+        "REFINED PALM OIL",
+        "INVERT SUGAR SYRUP",
+        "MILK SOLIDS",
+        "RAISING AGENTS [503(ii) & 500 (ii)]",
+        "IODIZED SALT",
+        "EMULSIFIER(472e)",
+        "CALCIUM SALT",
+        "DOUGH CONDITIONER(223)",
+        "VITAMINS*",
+        "FERROUS SALT AND POTASSIUM IODATE. CONTAINS PERMITTED NATURAL COLOUR (150d) AND ADDED FLAVOURS NATURE IDENTICAL & ARTIFICIAL (MILK & VANILLA) FLAVOURING SUBSTANCES] (Numbers in brackets as per International Numbering System) CONTAINS WHEAT",
+        "MILK AND SULPHITE."
+      ],
+      "flags": [
+        "High Sugar",
+        "High Saturated Fat"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/106/302/3901/front_en.6.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901063023901"
     },
     {
       "id": "8901063026162",
       "slug": "britannia-nutri-sugar-free",
-      "name": "Britannia Nutri Sugar, Free",
+      "name": "Britannia nutri SUGAR, FREE",
       "brand": "Britannia",
       "category": "Biscuits",
       "category_slug": "biscuits",
@@ -3875,36 +2922,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/302/6162/front_en.23.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063026162",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 8,
-        "baseline_points": 13,
-        "modifying_points": 5,
-        "limiting_factors": [
-          "High saturated fat (7.0g per 100g)",
-          "High calorie density (463.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 63,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 4.8,
-        "daily_percentages": {
-          "sodium": 6.3,
-          "sugar": 0.6,
-          "saturated_fat": 20.0,
-          "calories": 14.6
-        },
-        "explanation": "Limit to 63g to stay within saturated fat limits.",
-        "explanation_hindi": "63g tak hi khao, saturated fat ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063026162"
     },
     {
       "id": "8901063028227",
       "slug": "britannia-nice-time-8",
-      "name": "Britannia Nice Time (8)",
+      "name": "Britannia nice time (8)",
       "brand": "Britannia",
       "category": "Biscuits",
       "category_slug": "biscuits",
@@ -3926,32 +2949,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/302/8227/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063028227",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 16,
-        "baseline_points": 19,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (30.5g per 100g)",
-          "High saturated fat (8.0g per 100g)",
-          "High calorie density (463.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 33,
-        "limiting_factor": "sugar",
-        "servings_per_package": 3.1,
-        "daily_percentages": {
-          "sodium": 1.8,
-          "sugar": 20.0,
-          "saturated_fat": 11.9,
-          "calories": 7.6
-        },
-        "explanation": "Limit to 33g to stay within sugar limits.",
-        "explanation_hindi": "33g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063028227"
     },
     {
       "id": "8901063017634",
@@ -3993,37 +2991,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/301/7634/front_fr.16.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063017634",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 24,
-        "baseline_points": 28,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High sodium (1100.0mg per 100g)",
-          "High saturated fat (13.0g per 100g)",
-          "High calorie density (502.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 34,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 3.1,
-        "daily_percentages": {
-          "sodium": 18.6,
-          "sugar": 6.8,
-          "saturated_fat": 20.0,
-          "calories": 8.5
-        },
-        "explanation": "Limit to 34g to stay within saturated fat limits.",
-        "explanation_hindi": "34g tak hi khao, saturated fat ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063017634"
     },
     {
       "id": "8901063014299",
       "slug": "britannia-vita-meri",
-      "name": "Britannia Vita Meri",
+      "name": "Britannia vita meri",
       "brand": "Britannia",
       "category": "Nashta",
       "category_slug": "nashta",
@@ -4046,33 +3019,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/301/4299/front_en.21.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063014299",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 21,
-        "baseline_points": 25,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High sodium (1800.0mg per 100g)",
-          "High sugar (23.6g per 100g)",
-          "High saturated fat (5.5g per 100g)",
-          "High calorie density (449.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 22,
-        "limiting_factor": "sodium",
-        "servings_per_package": 4.5,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 10.5,
-          "saturated_fat": 5.6,
-          "calories": 5.0
-        },
-        "explanation": "Very limited portion recommended. Just 22g due to high sodium.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 22g kyunki sodium zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063014299"
     },
     {
       "id": "8901063017252",
@@ -4113,31 +3060,44 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/301/7252/front_en.57.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063017252",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 14,
-        "baseline_points": 18,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High saturated fat (13.0g per 100g)",
-          "High calorie density (502.0kcal per 100g)"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8901063017252"
+    },
+    {
+      "id": "8901063093409",
+      "slug": "britannia-good-day-cashew-cookies-1",
+      "name": "Britannia good day cashew cookies",
+      "brand": "Britannia",
+      "category": "Biscuits",
+      "category_slug": "biscuits",
+      "package_size_g": 120.0,
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0,
+        "carbohydrates_g": 67.0,
+        "sugar_g": 22.0,
+        "total_fat_g": 24.0,
+        "saturated_fat_g": 0,
+        "fiber_g": 0,
+        "sodium_mg": 0
       },
-      "safe_limit": {
-        "recommended_serving_g": 34,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 1.5,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 6.8,
-          "saturated_fat": 20.0,
-          "calories": 8.5
-        },
-        "explanation": "Limit to 34g to stay within saturated fat limits.",
-        "explanation_hindi": "34g tak hi khao, saturated fat ke liye."
-      }
+      "ingredients": [
+        "REFINED WHEAT FLOUR (MAIDA)",
+        "EDIBLE VEGETABLE OIL (PALM). SUGAR",
+        "CASHEW NUTS (4.5%)",
+        "INVERT SYRUP",
+        "MİLK SOLIDS",
+        "BUTTER (0.6%)",
+        "RAISING AGENTS [503(ii) & 500(ii)]",
+        "IODISED SALT AND EMULSIFIERS (322",
+        "471",
+        "472e). CONTAINS ADDED FLAVOURS INATURE IDENTICAL AND ARTIFICIAL (MILK AND VANILLA) FLAVOURING SUBSTANCES)"
+      ],
+      "flags": [
+        "High Sugar"
+      ],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/106/309/3409/front_en.4.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901063093409"
     },
     {
       "id": "8901063363977",
@@ -4180,37 +3140,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/336/3977/front_en.11.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063363977",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 17,
-        "baseline_points": 20,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (27.1g per 100g)",
-          "High saturated fat (8.9g per 100g)",
-          "High calorie density (417.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 37,
-        "limiting_factor": "sugar",
-        "servings_per_package": 3.0,
-        "daily_percentages": {
-          "sodium": 1.8,
-          "sugar": 20.0,
-          "saturated_fat": 14.9,
-          "calories": 7.7
-        },
-        "explanation": "Limit to 37g to stay within sugar limits.",
-        "explanation_hindi": "37g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063363977"
     },
     {
       "id": "8901063014312",
       "slug": "britannia-vita-marie-gold",
-      "name": "Britannia Vita Marie Gold",
+      "name": "Britannia Vita Marie GOLD",
       "brand": "Britannia",
       "category": "Namkeen",
       "category_slug": "namkeen",
@@ -4233,33 +3168,7 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/301/4312/front_en.7.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063014312",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 19,
-        "baseline_points": 23,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High sodium (800.0mg per 100g)",
-          "High sugar (25.2g per 100g)",
-          "High saturated fat (5.5g per 100g)",
-          "High calorie density (449.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 40,
-        "limiting_factor": "sugar",
-        "servings_per_package": 2.5,
-        "daily_percentages": {
-          "sodium": 15.9,
-          "sugar": 20.0,
-          "saturated_fat": 9.9,
-          "calories": 8.9
-        },
-        "explanation": "Limit to 40g to stay within sugar limits.",
-        "explanation_hindi": "40g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063014312"
     },
     {
       "id": "8901063092686",
@@ -4297,37 +3206,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/309/2686/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063092686",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 18,
-        "baseline_points": 22,
-        "modifying_points": 4,
-        "limiting_factors": [
-          "High sugar (20.8g per 100g)",
-          "High saturated fat (11.0g per 100g)",
-          "High calorie density (500.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 40,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 1.5,
-        "daily_percentages": {
-          "sodium": 4.0,
-          "sugar": 16.6,
-          "saturated_fat": 20.0,
-          "calories": 10.0
-        },
-        "explanation": "Limit to 40g to stay within saturated fat limits.",
-        "explanation_hindi": "40g tak hi khao, saturated fat ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063092686"
     },
     {
       "id": "8901063155442",
       "slug": "britannia-tiger-krunch-chocochips",
-      "name": "Britannia Tiger Krunch Chocochips",
+      "name": "Britannia Tiger Krunch ChocoChips",
       "brand": "Britannia",
       "category": "Biscuits",
       "category_slug": "biscuits",
@@ -4349,37 +3233,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/315/5442/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063155442",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 18,
-        "baseline_points": 21,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (30.0g per 100g)",
-          "High saturated fat (8.0g per 100g)",
-          "High calorie density (483.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 32,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.0,
-        "daily_percentages": {
-          "sodium": 3.1,
-          "sugar": 18.9,
-          "saturated_fat": 11.5,
-          "calories": 7.6
-        },
-        "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
-        "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063155442"
     },
     {
       "id": "8901063363779",
       "slug": "britannia-cake-fruity-fun",
-      "name": "Britannia Cake Fruity Fun",
+      "name": "Britannia cake fruity fun",
       "brand": "Britannia",
       "category": "Biscuits",
       "category_slug": "biscuits",
@@ -4416,36 +3275,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/106/336/3779/front_en.19.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901063363779",
-      "mizan_score": {
-        "stars": 2,
-        "grade": "D",
-        "inr_score": 11,
-        "baseline_points": 14,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (27.1g per 100g)",
-          "High calorie density (417.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 37,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.4,
-        "daily_percentages": {
-          "sodium": 3.7,
-          "sugar": 20.0,
-          "saturated_fat": 2.5,
-          "calories": 7.7
-        },
-        "explanation": "Limit to 37g to stay within sugar limits.",
-        "explanation_hindi": "37g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901063363779"
     },
     {
       "id": "8901262200196",
-      "slug": "amul-masti-spiced-buttermilk",
-      "name": "Amul Masti Spiced Buttermilk",
+      "slug": "amul-masti-spiced-buttermilk-200ml",
+      "name": "Amul Masti Spiced Buttermilk 200ml",
       "brand": "Amul",
       "category": "Drinks",
       "category_slug": "drinks",
@@ -4470,30 +3305,7 @@
       "flags": [],
       "image_url": "https://images.openfoodfacts.org/images/products/890/126/220/0196/front_en.54.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901262200196",
-      "mizan_score": {
-        "stars": 4,
-        "grade": "B",
-        "inr_score": 2,
-        "baseline_points": 2,
-        "modifying_points": 0,
-        "limiting_factors": [
-          "No major concerns"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 200,
-        "limiting_factor": "sodium",
-        "servings_per_package": 1.0,
-        "daily_percentages": {
-          "sodium": 20.0,
-          "sugar": 7.2,
-          "saturated_fat": 8.2,
-          "calories": 2.9
-        },
-        "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
-        "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901262200196"
     },
     {
       "id": "8901262010016",
@@ -4523,37 +3335,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/126/201/0016/front_en.53.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901262010016",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 26,
-        "baseline_points": 26,
-        "modifying_points": 0,
-        "limiting_factors": [
-          "High sodium (800.0mg per 100g)",
-          "High saturated fat (50.0g per 100g)",
-          "High calorie density (714.3kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 9,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 11.4,
-        "daily_percentages": {
-          "sodium": 3.5,
-          "sugar": 0.0,
-          "saturated_fat": 20.0,
-          "calories": 3.1
-        },
-        "explanation": "Very limited portion recommended. Just 9g due to high saturated fat.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 9g kyunki saturated fat zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901262010016"
     },
     {
       "id": "8901262010320",
       "slug": "amul-butter",
-      "name": "Amul Butter",
+      "name": "AMUL Butter",
       "brand": "AMUL",
       "category": "Dairy",
       "category_slug": "dairy",
@@ -4578,36 +3365,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/126/201/0320/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901262010320",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 19,
-        "baseline_points": 19,
-        "modifying_points": 0,
-        "limiting_factors": [
-          "High saturated fat (48.0g per 100g)",
-          "High calorie density (724.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 9,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 21.8,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 0.0,
-          "saturated_fat": 20.0,
-          "calories": 3.3
-        },
-        "explanation": "Very limited portion recommended. Just 9g due to high saturated fat.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 9g kyunki saturated fat zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901262010320"
     },
     {
       "id": "8901262200189",
-      "slug": "amul-lassi",
-      "name": "Amul Lassi",
+      "slug": "amul-lassi-200ml",
+      "name": "Amul Lassi 200ml",
       "brand": "Amul",
       "category": "Drinks",
       "category_slug": "drinks",
@@ -4633,35 +3396,12 @@
       "flags": [],
       "image_url": "https://images.openfoodfacts.org/images/products/890/126/220/0189/front_en.7.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901262200189",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 4,
-        "baseline_points": 5,
-        "modifying_points": 1,
-        "limiting_factors": [
-          "No major concerns"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 69,
-        "limiting_factor": "sugar",
-        "servings_per_package": 2.9,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 20.0,
-          "saturated_fat": 3.8,
-          "calories": 3.1
-        },
-        "explanation": "Limit to 69g to stay within sugar limits.",
-        "explanation_hindi": "69g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901262200189"
     },
     {
       "id": "8901262010023",
       "slug": "amul-pasteurised-butter",
-      "name": "Amul Pasteurised Butter",
+      "name": "Amul pasteurised butter",
       "brand": "Amul",
       "category": "Dairy",
       "category_slug": "dairy",
@@ -4683,37 +3423,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/126/201/0023/front_en.7.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901262010023",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 29,
-        "baseline_points": 29,
-        "modifying_points": 0,
-        "limiting_factors": [
-          "High sodium (1000.0mg per 100g)",
-          "High saturated fat (48.0g per 100g)",
-          "High calorie density (724.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 9,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 10.9,
-        "daily_percentages": {
-          "sodium": 4.6,
-          "sugar": 0.0,
-          "saturated_fat": 20.0,
-          "calories": 3.3
-        },
-        "explanation": "Very limited portion recommended. Just 9g due to high saturated fat.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 9g kyunki saturated fat zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901262010023"
     },
     {
       "id": "8901262150088",
-      "slug": "amul-taaza",
-      "name": "Amul Taaza",
+      "slug": "amul-taaza-200ml",
+      "name": "Amul Taaza 200ml",
       "brand": "Amul",
       "category": "Dairy",
       "category_slug": "dairy",
@@ -4734,30 +3449,7 @@
       "flags": [],
       "image_url": "",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901262150088",
-      "mizan_score": {
-        "stars": 4,
-        "grade": "B",
-        "inr_score": 1,
-        "baseline_points": 2,
-        "modifying_points": 1,
-        "limiting_factors": [
-          "No major concerns"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 200,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.0,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 19.2,
-          "saturated_fat": 18.2,
-          "calories": 5.8
-        },
-        "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
-        "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901262150088"
     },
     {
       "id": "8901262070546",
@@ -4793,37 +3485,12 @@
       ],
       "image_url": "https://images.openfoodfacts.org/images/products/890/126/207/0546/front_en.24.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901262070546",
-      "mizan_score": {
-        "stars": 1,
-        "grade": "F",
-        "inr_score": 24,
-        "baseline_points": 27,
-        "modifying_points": 3,
-        "limiting_factors": [
-          "High sugar (56.6g per 100g)",
-          "High saturated fat (28.3g per 100g)",
-          "High calorie density (526.0kcal per 100g)"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 16,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 16.1,
-        "daily_percentages": {
-          "sodium": 0.8,
-          "sugar": 17.6,
-          "saturated_fat": 20.0,
-          "calories": 4.1
-        },
-        "explanation": "Very limited portion recommended. Just 16g due to high saturated fat.",
-        "explanation_hindi": "Bahut kam khana chahiye. Sirf 16g kyunki saturated fat zyada hai."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901262070546"
     },
     {
       "id": "8901262260121",
       "slug": "amul-taaza-milky-milk",
-      "name": "Amul Taaza Milky Milk",
+      "name": "Amul taaza Milky Milk",
       "brand": "Amul taaza",
       "category": "Dairy",
       "category_slug": "dairy",
@@ -4844,30 +3511,7 @@
       "flags": [],
       "image_url": "https://images.openfoodfacts.org/images/products/890/126/226/0121/front_en.52.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901262260121",
-      "mizan_score": {
-        "stars": 4,
-        "grade": "B",
-        "inr_score": 0,
-        "baseline_points": 0,
-        "modifying_points": 0,
-        "limiting_factors": [
-          "No major concerns"
-        ]
-      },
-      "safe_limit": {
-        "recommended_serving_g": 417,
-        "limiting_factor": "sugar",
-        "servings_per_package": 1.2,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 20.0,
-          "saturated_fat": 18.9,
-          "calories": 6.0
-        },
-        "explanation": "Limit to 417g to stay within sugar limits.",
-        "explanation_hindi": "417g tak hi khao, sugar ke liye."
-      }
+      "source_url": "https://world.openfoodfacts.org/product/8901262260121"
     },
     {
       "id": "8901262260107",
@@ -4893,30 +3537,38 @@
       "flags": [],
       "image_url": "https://images.openfoodfacts.org/images/products/890/126/226/0107/front_en.3.400.jpg",
       "source": "Open Food Facts",
-      "source_url": "https://world.openfoodfacts.org/product/8901262260107",
-      "mizan_score": {
-        "stars": 3,
-        "grade": "C",
-        "inr_score": 3,
-        "baseline_points": 4,
-        "modifying_points": 1,
-        "limiting_factors": [
-          "No major concerns"
-        ]
+      "source_url": "https://world.openfoodfacts.org/product/8901262260107"
+    },
+    {
+      "id": "8901262151696",
+      "slug": "amul-lassi-250-ml",
+      "name": "Amul Lassi 250 ml",
+      "brand": "Amul",
+      "category": "Drinks",
+      "category_slug": "drinks",
+      "package_size_g": 250.0,
+      "nutrients": {
+        "energy_kcal": 87.0,
+        "protein_g": 2.0,
+        "carbohydrates_g": 14.0,
+        "sugar_g": 14.0,
+        "total_fat_g": 2.0,
+        "saturated_fat_g": 1.2,
+        "fiber_g": 0,
+        "sodium_mg": 0.0
       },
-      "safe_limit": {
-        "recommended_serving_g": 100,
-        "limiting_factor": "saturated_fat",
-        "servings_per_package": 1.0,
-        "daily_percentages": {
-          "sodium": 0.0,
-          "sugar": 0.0,
-          "saturated_fat": 17.7,
-          "calories": 4.3
-        },
-        "explanation": "You can eat the whole packet without exceeding recommended daily limits.",
-        "explanation_hindi": "Pura packet kha sakte ho, daily limit cross nahi hogi."
-      }
+      "ingredients": [
+        "Milk solids",
+        "water",
+        "sugar",
+        "stabilizer (440)",
+        "nature identical and artificial flavouring substances (rose)",
+        "active culture. Allergen Information: Contains milk."
+      ],
+      "flags": [],
+      "image_url": "https://images.openfoodfacts.org/images/products/890/126/215/1696/front_en.12.400.jpg",
+      "source": "Open Food Facts",
+      "source_url": "https://world.openfoodfacts.org/product/8901262151696"
     }
   ]
 }

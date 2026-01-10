@@ -1,19 +1,44 @@
 ---
-import type { IngredientAnalysis as IngredientAnalysisType, NOVAGroup } from '../../types';
-
 interface Props {
-  analysis: IngredientAnalysisType;
-  novaGroup: NOVAGroup;
+  analysis: {
+    ingredients?: string[];
+    primary_ingredients?: string[];
+    hidden_sugars?: string[];
+    additives?: any[];
+    flags?: any[];
+    allergens?: string[];
+  };
+  novaGroup?: number;
 }
 
-const { analysis, novaGroup } = Astro.props;
+const { analysis, novaGroup = 4 } = Astro.props;
 
-const novaDescriptions: Record<NOVAGroup, { label: string; color: string }> = {
+// Handle both array of strings and detailed analysis format
+const ingredients = analysis.ingredients ?? analysis.primary_ingredients ?? [];
+const primaryIngredients = analysis.primary_ingredients ?? ingredients.slice(0, 5);
+const hiddenSugars = analysis.hidden_sugars ?? [];
+const additives = analysis.additives ?? [];
+const allergens = analysis.allergens ?? [];
+
+// Convert simple string flags to proper format
+const flags = (analysis.flags ?? []).map((flag: any) => {
+  if (typeof flag === 'string') {
+    return {
+      message: flag,
+      severity: flag.toLowerCase().includes('high') ? 'warning' : 'info'
+    };
+  }
+  return flag;
+});
+
+const novaDescriptions: Record<number, { label: string; color: string }> = {
   1: { label: 'Unprocessed or minimally processed', color: 'bg-green-safe text-white' },
   2: { label: 'Processed culinary ingredients', color: 'bg-green-safe/70 text-white' },
   3: { label: 'Processed foods', color: 'bg-amber-warning text-white' },
   4: { label: 'Ultra-processed foods', color: 'bg-red-critical text-white' },
 };
+
+const novaInfo = novaDescriptions[novaGroup] ?? novaDescriptions[4];
 ---
 
 <div class="bg-white rounded-xl card-shadow p-5">
@@ -25,25 +50,27 @@ const novaDescriptions: Record<NOVAGroup, { label: string; color: string }> = {
   </div>
 
   <!-- Primary Ingredients -->
-  <div class="mb-4">
-    <h4 class="text-sm font-medium text-gray-500 uppercase tracking-wide mb-2">Main Ingredients</h4>
-    <div class="flex flex-wrap gap-2">
-      {analysis.primary_ingredients.map((ingredient, index) => (
-        <span class={`px-3 py-1 rounded-full text-sm ${index === 0 ? 'bg-mizan-teal text-white' : 'bg-gray-100 text-gray-700'}`}>
-          #{index + 1} {ingredient}
-        </span>
-      ))}
+  {primaryIngredients.length > 0 && (
+    <div class="mb-4">
+      <h4 class="text-sm font-medium text-gray-500 uppercase tracking-wide mb-2">Main Ingredients</h4>
+      <div class="flex flex-wrap gap-2">
+        {primaryIngredients.slice(0, 8).map((ingredient, index) => (
+          <span class={`px-3 py-1 rounded-full text-sm ${index === 0 ? 'bg-mizan-teal text-white' : 'bg-gray-100 text-gray-700'}`}>
+            #{index + 1} {ingredient}
+          </span>
+        ))}
+      </div>
     </div>
-  </div>
+  )}
 
   <!-- Hidden Sugars -->
-  {analysis.hidden_sugars.length > 0 && (
+  {hiddenSugars.length > 0 && (
     <div class="mb-4 p-3 bg-amber-warning/10 rounded-lg">
       <h4 class="text-sm font-medium text-amber-warning flex items-center gap-1 mb-2">
         <span>🍬</span> Hidden Sugars Detected
       </h4>
       <div class="flex flex-wrap gap-2">
-        {analysis.hidden_sugars.map((sugar) => (
+        {hiddenSugars.map((sugar) => (
           <span class="px-2 py-1 bg-white rounded text-sm text-gray-700">{sugar}</span>
         ))}
       </div>
@@ -51,11 +78,11 @@ const novaDescriptions: Record<NOVAGroup, { label: string; color: string }> = {
   )}
 
   <!-- Additives -->
-  {analysis.additives.length > 0 && (
+  {additives.length > 0 && (
     <div class="mb-4">
       <h4 class="text-sm font-medium text-gray-500 uppercase tracking-wide mb-2">Additives</h4>
       <div class="space-y-2">
-        {analysis.additives.map((additive) => (
+        {additives.map((additive) => (
           <div class={`p-3 rounded-lg ${
             additive.concern_level === 'avoid' ? 'bg-red-critical/10' :
             additive.concern_level === 'caution' ? 'bg-amber-warning/10' :
@@ -63,12 +90,12 @@ const novaDescriptions: Record<NOVAGroup, { label: string; color: string }> = {
           }`}>
             <div class="flex items-center justify-between">
               <span class="font-medium text-gray-800">{additive.name}</span>
-              <span class="text-xs text-gray-500">{additive.code}</span>
+              {additive.code && <span class="text-xs text-gray-500">{additive.code}</span>}
             </div>
-            <p class="text-sm text-gray-600 mt-1">{additive.description}</p>
+            {additive.description && <p class="text-sm text-gray-600 mt-1">{additive.description}</p>}
             {additive.banned_in && additive.banned_in.length > 0 && (
               <p class="text-xs text-red-critical mt-1">
-                ⚠️ Restricted in: {additive.banned_in.join(', ')}
+                Restricted in: {additive.banned_in.join(', ')}
               </p>
             )}
           </div>
@@ -77,12 +104,12 @@ const novaDescriptions: Record<NOVAGroup, { label: string; color: string }> = {
     </div>
   )}
 
-  <!-- Flags -->
-  {analysis.flags.length > 0 && (
+  <!-- Flags/Warnings -->
+  {flags.length > 0 && (
     <div class="mb-4">
       <h4 class="text-sm font-medium text-gray-500 uppercase tracking-wide mb-2">Warnings</h4>
       <div class="space-y-2">
-        {analysis.flags.map((flag) => (
+        {flags.map((flag) => (
           <div class={`flex items-start gap-2 p-3 rounded-lg ${
             flag.severity === 'critical' ? 'bg-red-critical/10' :
             flag.severity === 'warning' ? 'bg-amber-warning/10' :
@@ -108,11 +135,11 @@ const novaDescriptions: Record<NOVAGroup, { label: string; color: string }> = {
   )}
 
   <!-- Allergens -->
-  {analysis.allergens.length > 0 && (
+  {allergens.length > 0 && (
     <div class="mb-4">
       <h4 class="text-sm font-medium text-gray-500 uppercase tracking-wide mb-2">Allergens</h4>
       <div class="flex flex-wrap gap-2">
-        {analysis.allergens.map((allergen) => (
+        {allergens.map((allergen) => (
           <span class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-sm">{allergen}</span>
         ))}
       </div>
@@ -123,10 +150,10 @@ const novaDescriptions: Record<NOVAGroup, { label: string; color: string }> = {
   <div class="pt-4 border-t border-gray-100">
     <div class="flex items-center justify-between">
       <span class="text-sm text-gray-600">NOVA Classification</span>
-      <span class={`px-3 py-1 rounded-full text-sm font-medium ${novaDescriptions[novaGroup].color}`}>
+      <span class={`px-3 py-1 rounded-full text-sm font-medium ${novaInfo.color}`}>
         Group {novaGroup}
       </span>
     </div>
-    <p class="text-xs text-gray-500 mt-1">{novaDescriptions[novaGroup].label}</p>
+    <p class="text-xs text-gray-500 mt-1">{novaInfo.label}</p>
   </div>
 </div>

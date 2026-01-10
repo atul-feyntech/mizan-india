@@ -34,16 +34,30 @@ function getNutritionStatus(value: number, thresholds: { ok: number; moderate: n
 
 const nutrients = product.nutrients;
 
+// Normalize nutrient field names (handle both old and new formats)
+const sugarG = nutrients.sugar_g ?? nutrients.sugars_g ?? 0;
+const fatG = nutrients.total_fat_g ?? nutrients.fat_g ?? 0;
+
 // Calculate daily percentages for nutrition bars
 const sodiumDailyPct = Math.round((nutrients.sodium_mg / 2000) * 100);
-const sugarDailyPct = Math.round((nutrients.sugars_g / 50) * 100);
+const sugarDailyPct = Math.round((sugarG / 50) * 100);
 const satFatDailyPct = Math.round((nutrients.saturated_fat_g / 22) * 100);
 const calorieDailyPct = Math.round((nutrients.energy_kcal / 2000) * 100);
+
+// Handle optional fields
+const alternatives = product.alternatives ?? [];
+const roast = product.roast ?? null;
+const ingredientsAnalysis = product.ingredients_analysis ?? { ingredients: product.ingredients ?? [], additives: [], flags: product.flags ?? [] };
+const novaGroup = product.nova_group ?? 4;
+const brandSlug = product.brand_slug ?? product.brand?.toLowerCase().replace(/\s+/g, '-') ?? '';
+const dataSource = product.source ?? product.data_source ?? 'Open Food Facts';
+const lastUpdated = product.last_updated ?? new Date().toISOString().split('T')[0];
+const scoreSummary = product.mizan_score?.summary ?? `${product.mizan_score?.stars ?? 0} star rating based on FSSAI guidelines`;
 ---
 
 <BaseLayout
   title={`${product.name} - Mizan Score ${product.mizan_score.stars}/5`}
-  description={`${product.name} by ${product.brand}: ${product.mizan_score.summary}. Safe limit: ${product.safe_limit.recommended_serving_g}g. Honest health rating and verdict.`}
+  description={`${product.name} by ${product.brand}: ${scoreSummary}. Safe limit: ${product.safe_limit.recommended_serving_g}g. Honest health rating and verdict.`}
 >
   <article class="py-8 md:py-12">
     <div class="container mx-auto px-4 max-w-4xl">
@@ -65,7 +79,7 @@ const calorieDailyPct = Math.round((nutrients.energy_kcal / 2000) * 100);
               {product.name}
             </h1>
             <p class="text-gray-600">
-              <a href={`/brand/${product.brand_slug}`} class="hover:text-mizan-teal">{product.brand}</a>
+              <span class="hover:text-mizan-teal">{product.brand}</span>
               <span class="mx-2">•</span>
               <a href={`/category/${product.category_slug}`} class="hover:text-mizan-teal">{product.category}</a>
               <span class="mx-2">•</span>
@@ -123,11 +137,11 @@ const calorieDailyPct = Math.round((nutrients.energy_kcal / 2000) * 100);
           />
           <NutritionBar
             label="Sugar"
-            value={nutrients.sugars_g}
+            value={sugarG}
             unit="g"
             dailyPercent={sugarDailyPct}
             maxValue={50}
-            status={getNutritionStatus(nutrients.sugars_g, { ok: 5, moderate: 15, high: 25 })}
+            status={getNutritionStatus(sugarG, { ok: 5, moderate: 15, high: 25 })}
           />
           <NutritionBar
             label="Sat. Fat"
@@ -160,28 +174,30 @@ const calorieDailyPct = Math.round((nutrients.energy_kcal / 2000) * 100);
           />
           <NutritionBar
             label="Fat"
-            value={nutrients.fat_g}
+            value={fatG}
             unit="g"
             maxValue={40}
-            status={getNutritionStatus(nutrients.fat_g, { ok: 10, moderate: 20, high: 30 })}
+            status={getNutritionStatus(fatG, { ok: 10, moderate: 20, high: 30 })}
           />
         </div>
       </section>
 
       <!-- Ingredient Analysis -->
       <section class="mb-8">
-        <IngredientAnalysis analysis={product.ingredients_analysis} novaGroup={product.nova_group} />
+        <IngredientAnalysis analysis={ingredientsAnalysis} novaGroup={novaGroup} />
       </section>
 
       <!-- The Roast -->
-      <section class="mb-8">
-        <TheRoast roast={product.roast} />
-      </section>
+      {roast && (
+        <section class="mb-8">
+          <TheRoast roast={roast} />
+        </section>
+      )}
 
       <!-- Alternatives -->
-      {product.alternatives.length > 0 && (
+      {alternatives.length > 0 && (
         <section class="mb-8">
-          <Alternatives alternatives={product.alternatives} />
+          <Alternatives alternatives={alternatives} />
         </section>
       )}
 
@@ -191,14 +207,14 @@ const calorieDailyPct = Math.round((nutrients.energy_kcal / 2000) * 100);
           <ShareButtons
             url={Astro.url.href}
             title={`${product.name} - Mizan Score: ${product.mizan_score.stars}/5`}
-            text={product.roast.text}
+            text={roast?.verdict_en ?? `${product.name} has a ${product.mizan_score.stars}-star Mizan rating`}
           />
 
           <div class="text-sm text-gray-500">
             <p>
-              Data: {product.data_source === 'label' ? 'Product Label' : product.data_source === 'off' ? 'Open Food Facts' : 'AI Extracted'}
+              Data: {dataSource}
               <span class="mx-2">•</span>
-              Updated: {product.last_updated}
+              Updated: {lastUpdated}
             </p>
             <p class="mt-1">
               <a href="/hum/tareeka" class="text-mizan-teal hover:underline">Methodology</a>
