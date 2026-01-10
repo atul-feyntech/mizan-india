@@ -15,6 +15,15 @@ const bestProducts = sortedByScore.slice(-4).reverse();
 
 // Trending searches
 const trendingSearches = ['Maggi', 'Bournvita', 'Kurkure', 'Parle-G', 'Coca-Cola'];
+
+// Simplified product data for client-side search (minimal fields only)
+const searchableProducts = products.slice(0, 500).map(p => ({
+  name: p.name,
+  brand: p.brand,
+  category: p.category,
+  slug: p.slug,
+  stars: p.mizan_score?.stars ?? 0
+}));
 ---
 
 <BaseLayout
@@ -153,27 +162,36 @@ const trendingSearches = ['Maggi', 'Bournvita', 'Kurkure', 'Parle-G', 'Coca-Cola
     </div>
   </section>
 
-  <!-- All Products Grid -->
+  <!-- Browse Products CTA -->
   <section class="py-12 md:py-16">
     <div class="container mx-auto px-4">
-      <div class="flex items-center justify-between mb-6">
-        <div class="flex items-center gap-2">
-          <span class="text-2xl">📦</span>
-          <h2 class="font-heading text-2xl font-bold text-gray-900">ALL PRODUCTS</h2>
+      <div class="bg-gradient-to-r from-mizan-teal to-mizan-teal-dark rounded-2xl p-8 md:p-12 text-white text-center">
+        <div class="text-4xl mb-4">📦</div>
+        <h2 class="font-heading text-2xl md:text-3xl font-bold mb-2">{products.length.toLocaleString()}+ Products</h2>
+        <p class="text-white/80 mb-6 max-w-md mx-auto">
+          Maggi se Bournvita tak, Kurkure se Amul tak — sab ka sach yahan hai.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <button
+            data-search-trigger
+            class="px-6 py-3 bg-white text-mizan-teal rounded-full font-medium hover:bg-gold-accent hover:text-white transition-colors"
+          >
+            🔍 Search Products
+          </button>
+          <a
+            href="/worst"
+            class="px-6 py-3 bg-white/10 text-white rounded-full font-medium hover:bg-white/20 transition-colors"
+          >
+            ⚠️ See Worst Rated
+          </a>
         </div>
-        <span class="text-gray-500 text-sm">{products.length} products</span>
-      </div>
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-        {products.map((product) => (
-          <ProductCard product={product} />
-        ))}
       </div>
     </div>
   </section>
 </BaseLayout>
 
-<script define:vars={{ products }}>
-  // Client-side search
+<script define:vars={{ searchableProducts }}>
+  // Client-side search (uses simplified product data)
   const searchInput = document.getElementById('search-input');
   const searchResults = document.getElementById('search-results');
   const searchTermBtns = document.querySelectorAll('.search-term');
@@ -185,7 +203,7 @@ const trendingSearches = ['Maggi', 'Bournvita', 'Kurkure', 'Parle-G', 'Coca-Cola
     }
 
     const lowerQuery = query.toLowerCase();
-    const matches = products.filter(p =>
+    const matches = searchableProducts.filter(p =>
       p.name.toLowerCase().includes(lowerQuery) ||
       p.brand.toLowerCase().includes(lowerQuery) ||
       p.category.toLowerCase().includes(lowerQuery)
@@ -199,13 +217,13 @@ const trendingSearches = ['Maggi', 'Bournvita', 'Kurkure', 'Parle-G', 'Coca-Cola
               <div class="font-medium text-gray-900">${p.name}</div>
               <div class="text-sm text-gray-500">${p.brand} • ${p.category}</div>
             </div>
-            <div class="text-gold-accent font-bold">${p.mizan_score.stars}★</div>
+            <div class="text-gold-accent font-bold">${p.stars}★</div>
           </div>
         </a>
       `).join('');
       searchResults.classList.remove('hidden');
     } else {
-      searchResults.innerHTML = '<div class="p-4 text-gray-500">Koi result nahi mila</div>';
+      searchResults.innerHTML = '<div class="p-4 text-gray-500">Koi result nahi mila — use search modal for full search</div>';
       searchResults.classList.remove('hidden');
     }
   }
