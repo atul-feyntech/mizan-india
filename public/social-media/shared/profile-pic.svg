@@ -1,0 +1,16 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#0D5C63"/>
+
+  <!-- Circle background -->
+  <circle cx="200" cy="200" r="180" fill="#094449"/>
+
+  <!-- Scale emoji -->
+  <text x="200" y="180" font-size="100" text-anchor="middle" fill="white">⚖️</text>
+
+  <!-- Brand name -->
+  <text x="200" y="280" font-family="Georgia, serif" font-size="72" font-weight="bold" text-anchor="middle" fill="white">MIZAN</text>
+
+  <!-- Urdu text -->
+  <text x="200" y="330" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#C9A227">میزان</text>
+</svg>

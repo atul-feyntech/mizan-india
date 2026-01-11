@@ -1,0 +1,45 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D5C63"/>
+      <stop offset="100%" style="stop-color:#094449"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Pattern overlay -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#grid)"/>
+
+  <!-- Decorative elements -->
+  <circle cx="150" cy="900" r="200" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="930" cy="180" r="150" fill="rgba(255,255,255,0.03)"/>
+
+  <!-- Main content -->
+  <text x="540" y="280" font-size="140" text-anchor="middle" fill="white">⚖️</text>
+
+  <text x="540" y="420" font-family="Georgia, serif" font-size="96" font-weight="bold" text-anchor="middle" fill="white">MIZAN</text>
+
+  <text x="540" y="500" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="#C9A227">Ab tolo, phir khao.</text>
+
+  <!-- Divider -->
+  <rect x="390" y="550" width="300" height="3" rx="1.5" fill="#C9A227"/>
+
+  <!-- Stats -->
+  <text x="540" y="640" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="rgba(255,255,255,0.9)">5,000+ Products Rated</text>
+  <text x="540" y="700" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="rgba(255,255,255,0.9)">Honest Health Ratings</text>
+  <text x="540" y="760" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="rgba(255,255,255,0.9)">Free Forever</text>
+
+  <!-- CTA -->
+  <rect x="340" y="830" width="400" height="80" rx="40" fill="#C9A227"/>
+  <text x="540" y="885" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#0D5C63">mizan.live</text>
+
+  <!-- Tagline -->
+  <text x="540" y="1000" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="rgba(255,255,255,0.6)">The scale that doesn't lie.</text>
+  <text x="540" y="1050" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="rgba(255,255,255,0.4)">🇮🇳 Made for India</text>
+</svg>

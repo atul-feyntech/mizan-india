@@ -1,0 +1,27 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D5C63"/>
+      <stop offset="100%" style="stop-color:#094449"/>
+    </linearGradient>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="2" fill="rgba(255,255,255,0.05)"/>
+    </pattern>
+  </defs>
+  <rect width="1500" height="500" fill="url(#bg)"/>
+  <rect width="1500" height="500" fill="url(#dots)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="400" r="150" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="1400" cy="100" r="120" fill="rgba(255,255,255,0.03)"/>
+
+  <!-- Content -->
+  <text x="750" y="180" font-size="80" text-anchor="middle" fill="white">⚖️</text>
+  <text x="750" y="280" font-family="Georgia, serif" font-size="64" font-weight="bold" text-anchor="middle" fill="white">Ab tolo, phir khao.</text>
+  <text x="750" y="350" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="rgba(255,255,255,0.8)">Indian Packaged Food Health Ratings | 5,000+ Products | Free Forever</text>
+
+  <!-- Website -->
+  <rect x="620" y="390" width="260" height="50" rx="25" fill="#C9A227"/>
+  <text x="750" y="425" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#0D5C63">mizan.live</text>
+</svg>

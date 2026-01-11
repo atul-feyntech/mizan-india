@@ -1,0 +1,31 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#F8F4E9"/>
+
+  <!-- Header bar -->
+  <rect width="1080" height="120" fill="#0D5C63"/>
+  <text x="80" y="78" font-size="48" fill="white">⚖️</text>
+  <text x="140" y="78" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="white">MIZAN</text>
+  <text x="980" y="78" font-family="Arial, sans-serif" font-size="24" text-anchor="end" fill="#C9A227">mizan.live</text>
+
+  <!-- Main content area -->
+  <rect x="60" y="180" width="960" height="720" rx="24" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Product placeholder -->
+  <text x="540" y="400" font-size="120" text-anchor="middle" fill="#0D5C63">🍪</text>
+  <text x="540" y="520" font-family="Georgia, serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#1a1a1a">[Product Name]</text>
+  <text x="540" y="580" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#6b7280">[Brand]</text>
+
+  <!-- Rating -->
+  <rect x="390" y="620" width="300" height="80" rx="40" fill="#C9A227"/>
+  <text x="540" y="675" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="white">★★★☆☆ 3/5</text>
+
+  <!-- Verdict bar -->
+  <rect x="60" y="760" width="960" height="140" rx="0 0 24 24" fill="#0D5C63"/>
+  <text x="540" y="820" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#C9A227">MIZAN KA FAISLA</text>
+  <text x="540" y="870" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="white">"[Witty verdict here]"</text>
+
+  <!-- Footer -->
+  <text x="540" y="1020" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#6b7280">See full rating at mizan.live</text>
+  <text x="540" y="1060" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#9ca3af">#MizanRating #PackagedFood #HealthyEating</text>
+</svg>
