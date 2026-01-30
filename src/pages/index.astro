@@ -35,8 +35,7 @@ const searchableProducts = products.slice(0, 500).map(p => ({
     <div class="container mx-auto px-4 text-center">
       <div class="text-6xl mb-4">⚖️</div>
       <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-2">MIZAN</h1>
-      <p class="text-2xl mb-4 font-urdu opacity-90">میزان</p>
-      <p class="text-xl md:text-2xl text-white/90 mb-8">Ab tolo, phir khao.</p>
+      <p class="text-xl md:text-2xl text-white/90 mb-8">Measure, then Eat.</p>
       <p class="text-sm text-white/70 mb-8 max-w-md mx-auto">
         The scale that weighs your packaged food's true worth. Not the marketing, the reality.
       </p>
@@ -48,7 +47,7 @@ const searchableProducts = products.slice(0, 500).map(p => ({
           <input
             type="search"
             id="search-input"
-            placeholder="Koi bhi packaged food search karo..."
+            placeholder="Search for any packaged food..."
             class="w-full py-4 px-14 bg-white text-gray-900 rounded-full text-lg focus:outline-none focus:ring-4 focus:ring-gold-accent/50 shadow-lg"
             autocomplete="off"
           />
@@ -80,8 +79,8 @@ const searchableProducts = products.slice(0, 500).map(p => ({
         <div>
           <div class="flex items-center gap-2 mb-6">
             <span class="text-2xl">⚠️</span>
-            <h2 class="font-heading text-2xl font-bold text-gray-900">SAB SE BURE</h2>
-            <span class="text-gray-500 text-sm">(Worst Rated)</span>
+            <h2 class="font-heading text-2xl font-bold text-gray-900">LOWEST RATED</h2>
+            <span class="text-gray-500 text-sm">(Warning)</span>
           </div>
           <div class="grid grid-cols-2 gap-4">
             {worstProducts.map((product) => (
@@ -89,7 +88,7 @@ const searchableProducts = products.slice(0, 500).map(p => ({
             ))}
           </div>
           <a href="/worst" class="inline-flex items-center gap-1 mt-4 text-mizan-teal hover:text-mizan-teal-dark font-medium text-sm">
-            Sab dekho <span>→</span>
+            See all <span>→</span>
           </a>
         </div>
 
@@ -97,8 +96,8 @@ const searchableProducts = products.slice(0, 500).map(p => ({
         <div>
           <div class="flex items-center gap-2 mb-6">
             <span class="text-2xl">✅</span>
-            <h2 class="font-heading text-2xl font-bold text-gray-900">BEHTAR OPTIONS</h2>
-            <span class="text-gray-500 text-sm">(Better Choices)</span>
+            <h2 class="font-heading text-2xl font-bold text-gray-900">BETTER CHOICES</h2>
+            <span class="text-gray-500 text-sm">(Safe Options)</span>
           </div>
           <div class="grid grid-cols-2 gap-4">
             {bestProducts.map((product) => (
@@ -106,7 +105,7 @@ const searchableProducts = products.slice(0, 500).map(p => ({
             ))}
           </div>
           <a href="/better" class="inline-flex items-center gap-1 mt-4 text-green-safe hover:text-green-light font-medium text-sm">
-            Aur dekho <span>→</span>
+            See more <span>→</span>
           </a>
         </div>
       </div>
@@ -127,7 +126,7 @@ const searchableProducts = products.slice(0, 500).map(p => ({
             class="flex items-center gap-2 px-4 py-2 bg-warm-white rounded-full hover:bg-mizan-teal hover:text-white transition-colors border border-gray-200"
           >
             <span>{category.icon}</span>
-            <span>{category.name_hindi}</span>
+            <span>{category.name}</span>
           </a>
         ))}
       </div>
@@ -137,27 +136,27 @@ const searchableProducts = products.slice(0, 500).map(p => ({
   <!-- Why Mizan Section -->
   <section class="py-12 md:py-16 bg-mizan-teal/5">
     <div class="container mx-auto px-4 max-w-3xl text-center">
-      <h2 class="font-heading text-2xl md:text-3xl font-bold text-mizan-teal mb-8">🇮🇳 KYUN MIZAN?</h2>
+      <h2 class="font-heading text-2xl md:text-3xl font-bold text-mizan-teal mb-8">🇮🇳 WHY MIZAN?</h2>
       <div class="grid md:grid-cols-3 gap-6 mb-8">
         <div class="bg-white p-6 rounded-xl card-shadow">
           <div class="text-3xl font-bold text-red-critical mb-2">73%</div>
-          <p class="text-gray-600">Indians protein deficient hain</p>
+          <p class="text-gray-600">Indians are protein deficient</p>
         </div>
         <div class="bg-white p-6 rounded-xl card-shadow">
           <div class="text-3xl font-bold text-red-critical mb-2">57%</div>
-          <p class="text-gray-600">Auraton ko anemia hai</p>
+          <p class="text-gray-600">Women have anemia</p>
         </div>
         <div class="bg-white p-6 rounded-xl card-shadow">
           <div class="text-3xl font-bold text-red-critical mb-2">89M</div>
-          <p class="text-gray-600">Indians ko diabetes hai</p>
+          <p class="text-gray-600">Indians have diabetes</p>
         </div>
       </div>
       <p class="text-lg text-gray-700 mb-6">
-        Aur jo hum kha rahe hain — uska sach labels mein chhupa hai.<br />
-        Hum wo sach samajhne laayak bana rahe hain.
+        And what we are eating — the truth is hidden in the labels.<br />
+        We are making that truth understandable.
       </p>
       <a href="/hum" class="inline-flex items-center gap-2 text-mizan-teal hover:text-mizan-teal-dark font-medium">
-        Poora padhein <span>→</span>
+        Read more <span>→</span>
       </a>
     </div>
   </section>
@@ -169,7 +168,7 @@ const searchableProducts = products.slice(0, 500).map(p => ({
         <div class="text-4xl mb-4">📦</div>
         <h2 class="font-heading text-2xl md:text-3xl font-bold mb-2">{products.length.toLocaleString()}+ Products</h2>
         <p class="text-white/80 mb-6 max-w-md mx-auto">
-          Maggi se Bournvita tak, Kurkure se Amul tak — sab ka sach yahan hai.
+          From Maggi to Bournvita, from Kurkure to Amul — the truth is here.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
           <button
@@ -182,7 +181,7 @@ const searchableProducts = products.slice(0, 500).map(p => ({
             href="/worst"
             class="px-6 py-3 bg-white/10 text-white rounded-full font-medium hover:bg-white/20 transition-colors"
           >
-            ⚠️ See Worst Rated
+            ⚠️ See Lowest Rated
           </a>
         </div>
       </div>
@@ -223,7 +222,7 @@ const searchableProducts = products.slice(0, 500).map(p => ({
       `).join('');
       searchResults.classList.remove('hidden');
     } else {
-      searchResults.innerHTML = '<div class="p-4 text-gray-500">Koi result nahi mila — use search modal for full search</div>';
+      searchResults.innerHTML = '<div class="p-4 text-gray-500">No results found — use search modal for full search</div>';
       searchResults.classList.remove('hidden');
     }
   }

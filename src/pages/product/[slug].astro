@@ -90,10 +90,9 @@ const scoreSummary = product.mizan_score?.summary ?? `${product.mizan_score?.sta
                   <span>₹{product.price_inr}</span>
                 </>
               )}
+                </>
+              )}
             </p>
-            {product.name_hindi && (
-              <p class="text-gray-500 mt-1">{product.name_hindi}</p>
-            )}
           </div>
         </div>
       </header>
@@ -113,7 +112,7 @@ const scoreSummary = product.mizan_score?.summary ?? `${product.mizan_score?.sta
         <div class="flex items-center gap-2 mb-6">
           <span class="text-2xl">📊</span>
           <h2 class="font-heading text-xl text-mizan-teal font-bold">
-            NUTRITION KA HISAAB
+            NUTRITION BREAKDOWN
           </h2>
           <span class="text-sm text-gray-400">(per 100g)</span>
         </div>

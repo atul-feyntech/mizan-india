@@ -19,9 +19,9 @@ const products = productsData.products as Product[];
         <h1 class="font-heading text-3xl md:text-4xl font-bold text-gray-900 mb-2">
           COMPARE PRODUCTS
         </h1>
-        <p class="text-xl text-gray-600">Tolo Aur Dekho</p>
+        <p class="text-xl text-gray-600">Measure & See</p>
         <p class="text-gray-500 mt-2 max-w-xl mx-auto">
-          Do products ko side-by-side compare karo. Dekho kaunsa better hai.
+          Compare two products side-by-side. See which one is better.
         </p>
       </header>
 
@@ -85,7 +85,7 @@ const products = productsData.products as Product[];
 
           <!-- Safe Limit -->
           <div class="grid grid-cols-3 border-b border-gray-100">
-            <div class="p-4 font-medium text-gray-700">Roz ki Hadd</div>
+            <div class="p-4 font-medium text-gray-700">Daily Limit</div>
             <div class="p-4 text-center border-l border-gray-100">
               <span id="limit1" class="font-bold text-gray-900"></span>
             </div>
@@ -175,7 +175,7 @@ const products = productsData.products as Product[];
 
       <!-- Empty State -->
       <div id="empty-state" class="text-center py-12 bg-gray-50 rounded-xl max-w-4xl mx-auto">
-        <p class="text-gray-500 text-lg">Dono products select karo comparison dekhne ke liye</p>
+        <p class="text-gray-500 text-lg">Select both products to see comparison</p>
       </div>
 
     </div>
@@ -299,13 +299,13 @@ const products = productsData.products as Product[];
     const verdictText = document.getElementById('verdict-text');
 
     if (p1.mizan_score.stars > p2.mizan_score.stars) {
-      verdictText.textContent = `✅ ${p1.name} better hai — ${p1.mizan_score.stars}★ vs ${p2.mizan_score.stars}★`;
+      verdictText.textContent = `✅ ${p1.name} is better — ${p1.mizan_score.stars}★ vs ${p2.mizan_score.stars}★`;
       verdictEl.classList.remove('hidden');
     } else if (p2.mizan_score.stars > p1.mizan_score.stars) {
-      verdictText.textContent = `✅ ${p2.name} better hai — ${p2.mizan_score.stars}★ vs ${p1.mizan_score.stars}★`;
+      verdictText.textContent = `✅ ${p2.name} is better — ${p2.mizan_score.stars}★ vs ${p1.mizan_score.stars}★`;
       verdictEl.classList.remove('hidden');
     } else {
-      verdictText.textContent = `⚖️ Dono same score pe hain — ${p1.mizan_score.stars}★. Details dekho!`;
+      verdictText.textContent = `⚖️ Both have the same score — ${p1.mizan_score.stars}★. Check details!`;
       verdictEl.classList.remove('hidden');
     }
   }

@@ -21,34 +21,27 @@ const verdictEn = roast.verdict_en ?? roast.text ?? '';
 const verdictHi = roast.verdict_hi ?? roast.text_hindi ?? '';
 const titleEn = roast.title_en ?? '';
 const titleHi = roast.title_hi ?? '';
-const emoji = roast.emoji ?? '💀';
+const emoji = roast.emoji ?? '⚖️';
 ---
 
 <div class="bg-mizan-teal/5 border-l-4 border-mizan-teal rounded-r-xl p-5">
   <div class="flex items-center gap-2 mb-4">
     <span class="text-2xl">{emoji}</span>
     <h3 class="font-heading text-xl text-mizan-teal font-bold">
-      MIZAN KA FAISLA
+      MIZAN VERDICT
     </h3>
-    <span class="text-sm text-gray-500">(The Verdict)</span>
+    <span class="text-sm text-gray-500">(The Analysis)</span>
   </div>
 
   {titleEn && (
     <div class="mb-3">
       <span class="font-bold text-gray-900 text-lg">{titleEn}</span>
-      {titleHi && <span class="text-gray-500 ml-2">• {titleHi}</span>}
     </div>
   )}
 
   <blockquote class="text-lg text-gray-800 leading-relaxed mb-4 italic">
     "{verdictEn}"
   </blockquote>
-
-  {verdictHi && (
-    <blockquote class="text-base text-gray-600 leading-relaxed border-t border-mizan-teal/20 pt-4 mt-4">
-      "{verdictHi}"
-    </blockquote>
-  )}
 
   <div class="flex items-center justify-between mt-4 pt-3 border-t border-gray-200">
     <div class="flex items-center gap-2">
